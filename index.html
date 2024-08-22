@@ -1,0 +1,2133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="style/style.css">                    
+    <title>Главная страница</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="block_big home_bg"> 
+            <video autoplay muted loop>
+                <source src="../img/4k-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <header>
+                <div class="container">
+                    <div class="header_block">
+                        <div class="logo">
+                            <a href="#"><img src="img/logo.svg" alt=""></a>
+                        </div>
+                        <div class="block_menu">
+                            <div class="block_search">
+                                <form>
+                                    <div class="input-container">
+                                        <i class="" id="hidder_search"><img src="img/search.svg" alt=""></i>
+                                        <input type="text">
+                                    </div>
+                                  
+                                  </form>
+                            </div>
+                            <div class="connec_block">
+                                <a href="tel:+78352706070" class="tel">+7 (8352) 70-60-70</a>
+                                <a href="#" class="whatsapp"><img src="img/whatsapp.svg" alt=""></a>
+                                <a href="#"><img src="img/tg.svg" alt=""></a>
+                            </div>
+                            <div class="personal_area">
+                                <a href="#"><img src="img/men.svg" alt=""></a>
+                                <a href="#" class="pers_a">Личный кабинет</a>
+                                <nav class="navbar">
+                                    <a href=""></a>
+                                    <select class="language-selector" onchange="alert('https://location.loc?lang=' + this.value)">
+                                      <option value="en">ENG</option>
+                                      <option value="ru" selected>RU</option>
+                                      <option value="de">DE</option>
+                                    </select>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="hamburger-menu">
+                            <input id="menu__toggle" type="checkbox"/>
+                            <label class="menu__btn" for="menu__toggle">
+                                <span></span>
+                            </label>
+                            <ul class="menu__box">
+                                <a href="#"><img src="img/logo.svg" alt=""></a>
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Пациентам</a></li>
+                                <li><a href="#">Врачи</a></li>
+                                <li><a href="#">Вопросы и ответы</a></li>
+                                <li><a href="#">О центре</a></li>
+                                <li><a href="#">Пресс-центр</a></li>
+                                <li><a href="#">Образование</a></li>
+                                <li><a href="#" class="contact">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="home_block">
+                <div class="container">
+                    <div class="home">
+                        <h1>Федеральный центр <br> травматологии, ортопедии <br> и эндопротезирования</h1>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2">Записаться на прием</a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_block">
+                <div class="container">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#" class="active">Услуги</a></li>
+                            <li><a href="#">Пациентам</a></li>
+                            <li><a href="#">Врачи</a></li>
+                            <li><a href="#">Вопросы и ответы</a></li>
+                            <li><a href="#">О центре</a></li>
+                            <li><a href="#">Пресс-центр</a></li>
+                            <li><a href="#">Образование</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="block_medical_care">
+            <div class="container">
+                <div class="block_tab">
+                    <div class="text_block">
+                        <h2>Виды медицинской <br> помощи </h2>
+                    </div>
+                    <div class="block_right">
+                        <div class="search-box">
+                            <input type="text" class="search-input" placeholder="Введите запрос">
+                        
+                            <button class="search-button">
+                                <img src="img/search1.svg" alt="">
+                            </button>
+                            </div>
+                        <div class="tab">
+                            <button class="tablinks active" onclick="openCity(event, 'London')">По направлению</button>
+                            <button class="tablinks" onclick="openCity(event, 'Paris')">По названию</button>
+                            <button class="tablinks" onclick="openCity(event, 'Tokyo')">По диагнозу</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab_groupp">
+                    <div id="London" class="tabcontent ">
+                        <div class="block_item">
+                            <div class="row mb-3">
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <div class="item_info">
+                                            <h4>Диагностика </h4>
+                                            <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                            <a href="#">Магнитно-резонансная томография</a>
+                                            <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        </div>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <div class="item_info">
+                                            <h4>Доврачебная медицинская <br> помощь  </h4>
+                                            <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                            <a href="#">Магнитно-резонансная томография</a>
+                                            <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        </div>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <div class="item_info">
+                                            <h4>Диагностика </h4>
+                                            <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                            <a href="#">Магнитно-резонансная томография</a>
+                                            <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        </div>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <div class="item_info">
+                                            <h4>Стационар</h4>
+                                            <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                            <a href="#">Магнитно-резонансная томография</a>
+                                            <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        </div>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <div class="item_info">
+                                            <h4>Медицинская экспертиза</h4>
+                                            <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                            <a href="#">Магнитно-резонансная томография</a>
+                                            <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        </div>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <div class="item_info">
+                                            <h4>Реабилитация</h4>
+                                            <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                            <a href="#">Магнитно-резонансная томография</a>
+                                            <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        </div>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="Paris" class="tabcontent" style="display: none;">
+                        <div class="block_item">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <h4>Доврачебная медицинская <br> помощь  </h4>
+                                        <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                        <a href="#">Магнитно-резонансная томография</a>
+                                        <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <h4>Диагностика </h4>
+                                        <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                        <a href="#">Магнитно-резонансная томография</a>
+                                        <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <h4>Диагностика </h4>
+                                        <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                        <a href="#">Магнитно-резонансная томография</a>
+                                        <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <h4>Стационар</h4>
+                                        <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                        <a href="#">Магнитно-резонансная томография</a>
+                                        <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <h4>Медицинская экспертиза</h4>
+                                        <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                        <a href="#">Магнитно-резонансная томография</a>
+                                        <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <h4>Реабилитация</h4>
+                                        <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                        <a href="#">Магнитно-резонансная томография</a>
+                                        <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="Tokyo" class="tabcontent" style="display: none;">
+                        <div class="block_item">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <h4>Диагностика </h4>
+                                        <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                        <a href="#">Магнитно-резонансная томография</a>
+                                        <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <h4>Диагностика </h4>
+                                        <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                        <a href="#">Магнитно-резонансная томография</a>
+                                        <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <h4>Доврачебная медицинская <br> помощь  </h4>
+                                        <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                        <a href="#">Магнитно-резонансная томография</a>
+                                        <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <h4>Стационар</h4>
+                                        <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                        <a href="#">Магнитно-резонансная томография</a>
+                                        <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <h4>Медицинская экспертиза</h4>
+                                        <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                        <a href="#">Магнитно-резонансная томография</a>
+                                        <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="items">
+                                        <h4>Реабилитация</h4>
+                                        <a href="#">Рентгеновская компьютерная <br> томография</a>
+                                        <a href="#">Магнитно-резонансная томография</a>
+                                        <a href="#">Рентгеновская двухэнергетическая денситометрия (DEXA)</a>
+                                        <a href="#" class="servicess">Все услуги</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="other_services">
+                    <div class="title_block">
+                        <h4>Другие услуги</h4>
+                    </div>
+                    <div class="block_cardss">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item">
+                                     <div class="block_left">
+                                        <h4>Отель Motus</h4>
+                                        <p>Комфортное проживание и удобное <br> расположение на территории Центра</p>
+                                        <a href="#">Подробнее</a>
+                                     </div>
+                                     <div class="block_right">
+                                        <img src="img/img_card.png" alt="">
+                                     </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="item second_i">
+                                     <div class="block_left">
+                                        <h4>Ортопедический <br>
+                                            салон</h4>
+                                        <p>Большой выбор товаров с быстрой <br> доставкой по РФ</p>
+                                        <a href="#">Подробнее</a>
+                                     </div>
+                                     <div class="block_right">
+                                        <img src="img/img_card1.png" alt="">
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block_banner">
+                        <div class="swiper mySwiper4">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <div class="slider_group">
+                                    <h4>Место для баннера</h4>
+                                    <img src="img/banner.png" alt="">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="slider_group">
+                                    <h4>Место для баннера1</h4>
+                                    <img src="img/banner.png" alt="">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="slider_group">
+                                    <h4>Место для баннера2</h4>
+                                    <img src="img/banner.png" alt="">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="slider_group">
+                                    <h4>Место для баннера3</h4>
+                                    <img src="img/banner.png" alt="">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="slider_group">
+                                    <h4>Место для баннера4</h4>
+                                    <img src="img/banner.png" alt="">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="center_specialists center_specialists_asnov">
+            <div class="container">
+                <div class="specialists">
+                    <div class="title">
+                        <h2>Специалисты Центра </h2>
+                        <div class="search-box">
+                            <input type="text" class="search-input" placeholder="Введите фамилию, имя или специальность  ">
+                        
+                            <button class="search-button">
+                                <img src="img/search1.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="doctors_slider">
+                        <div class="slider_block_one">
+                            <div class="opacity-left"></div>
+                            <div class="opacity-right"></div>
+                            <div class="swiper mySwiper3 swiper-container">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc1.png" alt="">
+                                            <p>Стаж: 5 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                            <div class="info_users">
+                                                <h3>Иванов Виктор
+                                                    Павлович</h3>
+                                                <h4>Врач-узист</h4>
+                                                <h4>Первой категории</h4>
+                                            </div>
+                                            <div class="btn_users">
+                                            <a href="#">Подробнее</a>
+    
+                                            </div>
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc2.png" alt="">
+                                            <p>Стаж: 10 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                        <div class="info_users">
+                                            <h3>Христорождественская 
+                                                Екатерина 
+                                                Константиновна</h3>
+                                            <h4>Врач-узист</h4>
+                                            <h4>Первой категории</h4>
+                                        </div>
+                                        <div class="btn_users">
+                                            <a href="#">Подробнее</a>
+    
+                                        </div>
+                                         
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc3.png" alt="">
+                                            <p>Стаж: 15 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                        <div class="info_users">
+                                            <h3>Комиссарова
+                                                Анастасия 
+                                                Викторовна</h3>
+                                            <h4>Врач-узист</h4>
+                                            <h4>Первой категории</h4>
+                                        </div>
+                                          
+                                            <div class="btn_users">
+                                                <a href="#">Подробнее</a>
+    
+                                            </div>
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc1.png" alt="">
+                                            <p>Стаж: 5 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                            <div class="info_users">
+                                                <h3>Иванов Виктор
+                                                    Павлович</h3>
+                                                <h4>Врач-узист</h4>
+                                                <h4>Первой категории</h4>
+                                            </div>
+                                            <div class="btn_users">
+                                            <a href="#">Подробнее</a>
+    
+                                            </div>
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc2.png" alt="">
+                                            <p>Стаж: 10 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                        <div class="info_users">
+                                            <h3>Христорождественская 
+                                                Екатерина 
+                                                Константиновна</h3>
+                                            <h4>Врач-узист</h4>
+                                            <h4>Первой категории</h4>
+                                        </div>
+                                        <div class="btn_users">
+                                            <a href="#">Подробнее</a>
+    
+                                        </div>
+                                         
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc3.png" alt="">
+                                            <p>Стаж: 15 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                        <div class="info_users">
+                                            <h3>Комиссарова
+                                                Анастасия 
+                                                Викторовна</h3>
+                                            <h4>Врач-узист</h4>
+                                            <h4>Первой категории</h4>
+                                        </div>
+                                          
+                                            <div class="btn_users">
+                                                <a href="#">Подробнее</a>
+    
+                                            </div>
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc1.png" alt="">
+                                            <p>Стаж: 5 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                            <div class="info_users">
+                                                <h3>Иванов Виктор
+                                                    Павлович</h3>
+                                                <h4>Врач-узист</h4>
+                                                <h4>Первой категории</h4>
+                                            </div>
+                                            <div class="btn_users">
+                                            <a href="#">Подробнее</a>
+    
+                                            </div>
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc2.png" alt="">
+                                            <p>Стаж: 10 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                        <div class="info_users">
+                                            <h3>Христорождественская 
+                                                Екатерина 
+                                                Константиновна</h3>
+                                            <h4>Врач-узист</h4>
+                                            <h4>Первой категории</h4>
+                                        </div>
+                                        <div class="btn_users">
+                                            <a href="#">Подробнее</a>
+    
+                                        </div>
+                                         
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc3.png" alt="">
+                                            <p>Стаж: 15 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                        <div class="info_users">
+                                            <h3>Комиссарова
+                                                Анастасия 
+                                                Викторовна</h3>
+                                            <h4>Врач-узист</h4>
+                                            <h4>Первой категории</h4>
+                                        </div>
+                                          
+                                            <div class="btn_users">
+                                                <a href="#">Подробнее</a>
+    
+                                            </div>
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc1.png" alt="">
+                                            <p>Стаж: 5 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                            <div class="info_users">
+                                                <h3>Иванов Виктор
+                                                    Павлович</h3>
+                                                <h4>Врач-узист</h4>
+                                                <h4>Первой категории</h4>
+                                            </div>
+                                            <div class="btn_users">
+                                            <a href="#">Подробнее</a>
+    
+                                            </div>
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc2.png" alt="">
+                                            <p>Стаж: 10 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                        <div class="info_users">
+                                            <h3>Христорождественская 
+                                                Екатерина 
+                                                Константиновна</h3>
+                                            <h4>Врач-узист</h4>
+                                            <h4>Первой категории</h4>
+                                        </div>
+                                        <div class="btn_users">
+                                            <a href="#">Подробнее</a>
+    
+                                        </div>
+                                         
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc3.png" alt="">
+                                            <p>Стаж: 15 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                        <div class="info_users">
+                                            <h3>Комиссарова
+                                                Анастасия 
+                                                Викторовна</h3>
+                                            <h4>Врач-узист</h4>
+                                            <h4>Первой категории</h4>
+                                        </div>
+                                          
+                                            <div class="btn_users">
+                                                <a href="#">Подробнее</a>
+    
+                                            </div>
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc1.png" alt="">
+                                            <p>Стаж: 5 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                            <div class="info_users">
+                                                <h3>Иванов Виктор
+                                                    Павлович</h3>
+                                                <h4>Врач-узист</h4>
+                                                <h4>Первой категории</h4>
+                                            </div>
+                                            <div class="btn_users">
+                                            <a href="#">Подробнее</a>
+    
+                                            </div>
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc2.png" alt="">
+                                            <p>Стаж: 10 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                        <div class="info_users">
+                                            <h3>Христорождественская 
+                                                Екатерина 
+                                                Константиновна</h3>
+                                            <h4>Врач-узист</h4>
+                                            <h4>Первой категории</h4>
+                                        </div>
+                                        <div class="btn_users">
+                                            <a href="#">Подробнее</a>
+    
+                                        </div>
+                                         
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc3.png" alt="">
+                                            <p>Стаж: 15 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                        <div class="info_users">
+                                            <h3>Комиссарова
+                                                Анастасия 
+                                                Викторовна</h3>
+                                            <h4>Врач-узист</h4>
+                                            <h4>Первой категории</h4>
+                                        </div>
+                                          
+                                            <div class="btn_users">
+                                                <a href="#">Подробнее</a>
+    
+                                            </div>
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc1.png" alt="">
+                                            <p>Стаж: 5 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                            <div class="info_users">
+                                                <h3>Иванов Виктор
+                                                    Павлович</h3>
+                                                <h4>Врач-узист</h4>
+                                                <h4>Первой категории</h4>
+                                            </div>
+                                            <div class="btn_users">
+                                            <a href="#">Подробнее</a>
+    
+                                            </div>
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc2.png" alt="">
+                                            <p>Стаж: 10 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                        <div class="info_users">
+                                            <h3>Христорождественская 
+                                                Екатерина 
+                                                Константиновна</h3>
+                                            <h4>Врач-узист</h4>
+                                            <h4>Первой категории</h4>
+                                        </div>
+                                        <div class="btn_users">
+                                            <a href="#">Подробнее</a>
+    
+                                        </div>
+                                         
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc3.png" alt="">
+                                            <p>Стаж: 15 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                        <div class="info_users">
+                                            <h3>Комиссарова
+                                                Анастасия 
+                                                Викторовна</h3>
+                                            <h4>Врач-узист</h4>
+                                            <h4>Первой категории</h4>
+                                        </div>
+                                          
+                                            <div class="btn_users">
+                                                <a href="#">Подробнее</a>
+    
+                                            </div>
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc1.png" alt="">
+                                            <p>Стаж: 5 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                            <div class="info_users">
+                                                <h3>Иванов Виктор
+                                                    Павлович</h3>
+                                                <h4>Врач-узист</h4>
+                                                <h4>Первой категории</h4>
+                                            </div>
+                                            <div class="btn_users">
+                                            <a href="#">Подробнее</a>
+    
+                                            </div>
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc2.png" alt="">
+                                            <p>Стаж: 10 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                        <div class="info_users">
+                                            <h3>Христорождественская 
+                                                Екатерина 
+                                                Константиновна</h3>
+                                            <h4>Врач-узист</h4>
+                                            <h4>Первой категории</h4>
+                                        </div>
+                                        <div class="btn_users">
+                                            <a href="#">Подробнее</a>
+    
+                                        </div>
+                                         
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc3.png" alt="">
+                                            <p>Стаж: 15 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                        <div class="info_users">
+                                            <h3>Комиссарова
+                                                Анастасия 
+                                                Викторовна</h3>
+                                            <h4>Врач-узист</h4>
+                                            <h4>Первой категории</h4>
+                                        </div>
+                                          
+                                            <div class="btn_users">
+                                                <a href="#">Подробнее</a>
+    
+                                            </div>
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc1.png" alt="">
+                                            <p>Стаж: 5 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                            <div class="info_users">
+                                                <h3>Иванов Виктор
+                                                    Павлович</h3>
+                                                <h4>Врач-узист</h4>
+                                                <h4>Первой категории</h4>
+                                            </div>
+                                            <div class="btn_users">
+                                            <a href="#">Подробнее</a>
+    
+                                            </div>
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc2.png" alt="">
+                                            <p>Стаж: 10 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                        <div class="info_users">
+                                            <h3>Христорождественская 
+                                                Екатерина 
+                                                Константиновна</h3>
+                                            <h4>Врач-узист</h4>
+                                            <h4>Первой категории</h4>
+                                        </div>
+                                        <div class="btn_users">
+                                            <a href="#">Подробнее</a>
+    
+                                        </div>
+                                         
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="item">
+                                       <div class="img_doctors">
+                                            <img src="img/doc3.png" alt="">
+                                            <p>Стаж: 15 лет</p>
+                                       </div>
+                                       <div class="info_doctors">
+                                        <div class="info_users">
+                                            <h3>Комиссарова
+                                                Анастасия 
+                                                Викторовна</h3>
+                                            <h4>Врач-узист</h4>
+                                            <h4>Первой категории</h4>
+                                        </div>
+                                          
+                                            <div class="btn_users">
+                                                <a href="#">Подробнее</a>
+    
+                                            </div>
+                                       </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="swiper_arrow">
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                            <div class="btn_slider">
+                                <a href="#">Все специалисты</a>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="get_to_appointment second_get">
+            <div class="container">
+                <div class="title_block">
+                    <h2>Как попасть к нам на прием</h2>
+                </div>
+                <div class="block_cards">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="top_img">
+                                    <img src="img/card_im.svg" alt="">
+                                    <h3>Приехать лично</h3>
+                                </div>
+                                <p>Консультации проводятся по предварительной записи как бесплатно — <br> за счет средств обязательного медицинского страхования (ОМС), так <br> и на платной основе.</p>
+                                <a href="#">Список необходимых документов<img src="img/right_card.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="top_img">
+                                    <img src="img/card_im1.svg" alt="">
+                                    <h3>Дистанционно</h3>
+                                </div>
+                                <p>Консультации проводятся по предварительной записи как бесплатно — <br> за счет средств обязательного медицинского страхования (ОМС), так <br> и на платной основе.</p>
+                                <a href="#">Как получить онлайн-консультацию<img src="img/right_card.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="top_img">
+                                    <img src="img/card_im2.svg" alt="">
+                                    <h3>Медицинский туризм</h3>
+                                </div>
+                                <p>Консультации проводятся по предварительной записи как бесплатно — за <br> счет средств обязательного медицинского страхования (ОМС), так и на <br>  платной основе.</p>
+                                <a href="#">Список необходимых документов<img src="img/right_card.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card last_card">
+                                <div class="top_img">
+                                    <img src="img/card_im3.svg" alt="">
+                                    <h3>Способы предварительной <br> записи:</h3>
+                                </div>
+                                <div class="information_block">
+                                    <img src="img/img_inf.svg" alt="">
+                                    <p>Лично в регистратуре консультативной поликлиники;</p>
+                                </div>
+                                <div class="information_block">
+                                    <img src="img/img_inf.svg" alt="">
+                                    <p>Оставить заявку на этом сайте;</p>
+                                </div>
+                                <div class="information_block">
+                                    <img src="img/img_inf.svg" alt="">
+                                    <div class="text_r">
+                                        <p>По телефону регистратуры <a href="tel:8352706070">(8352) 70-60-70</a></p>
+                                        <span>доб. 1621 - детская.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section class="joy_movement">
+            <div class="container">
+                <div class="movement_block">
+                    <div class="block_text">
+                        <h3>Мы дарим Вам радость движения! <br>
+                            От качества лечения - к качеству жизни!</h3>
+                        <p>Я рад приветствовать вас на нашем сайте! Для нас очень важно, чтобы вы смогли найти много <br> полезной информации именно здесь. Мы постарались сделать все разделы сайта максимально <br> информативными и понятными, снабдить нужными ссылками, указать контакты необходимых <br> именно вам специалистов.</p>
+                        <p>Каждому пациенту мы обеспечим индивидуальный подход: запишем на консультацию или проведем <br> ее дистанционно, ответим на возникшие вопросы, проведем диагностические процедуры и, <br> возможно, определим показания к оперативному лечению, обеспечим комплексную реабилитацию.</p>
+                        <h4>Наша цель – стать лучше для вас. Мы всегда на связи по многоканальному телефону, в личном <br> кабинете пациента и в социальных сетях. Мы такие же, как вы, и понимаем: движение – это жизнь!</h4>
+                        <h5>С уважением, <br>
+                            главный врач ФГБУ «ФЦТОЭ» Минздрава России (г. Чебоксары), <br>
+                            д.м.н., профессор РАН Николай Станиславович Николаев</h5>
+                    </div>
+                    <div class="block_img">
+                        <img src="img/men_doc.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about_center_numbers">
+            <div class="container">
+                <div class="about_block">
+                    <div class="title_block">
+                        <h2>О Центре в цифрах</h2>
+                    </div>
+                    <div class="cardss_block">
+                        <div class="items">
+                            <h4>15</h4>
+                            <h6>Лет успешной работы</h6>
+                        </div>
+                        <div class="items">
+                            <h4>10 000 +</h4>
+                            <h6>Операций в год</h6>
+                        </div>
+                        <div class="items">
+                            <h4>45 000</h4>
+                            <h6>Посещений <br> консультативной <br> поликлиники в год</h6>
+                        </div>
+                        <div class="items">
+                            <h4>83</h4>
+                            <h6>Региона РФ География <br> оказания медицинской <br> помощи</h6>
+                        </div>
+                        <div class="items">
+                            <h4>5</h4>
+                            <h6>Стран оказывающих <br> услуги центра</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="features">
+                    <div class="block_left_f">
+                        <div class="block_feat_dec">
+                            <h3>Особенности ФЦТОЭ</h3>
+                            <button class="active " id="blockBtn1"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Эндопротезирование</button>
+                            <button id="blockBtn2"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Использование робототехники</button>
+                            <button id="blockBtn3"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Костесберегающие операции</button>
+                            <button id="blockBtn4"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Малоинвазивная хирургия</button>
+                            <button id="blockBtn5"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Обмен опытом с зарубежными врачами</button>
+                            <button id="blockBtn6"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Квоты на лечение</button>
+                            <button id="blockBtn7"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Свой отель на территории Центра</button>
+                            <button id="blockBtn8"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Своя лаборатория</button>  
+                            <button id="blockBtn9"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Ортопедический салон на территории Центра</button>
+                        </div>
+                        <div class="accordion_block_mob">
+                            <h3>Особенности ФЦТОЭ</h3>
+                            <div class="accordion" id="accordionExample8">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button block_btn-value collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                                            Эндопротезирование
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapse15" class="accordion-collapse collapse" data-bs-parent="#accordionExample8">
+                                    <div class="accordion-body block_tab-mob">
+                                        <button class="first_a active" id="blockBtnMob1" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Эндопротезирование</button>
+                                        <button id="blockBtnMob2" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Использование робототехники</button>
+                                        <button id="blockBtnMob3" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Костесберегающие операции</button>
+                                        <button id="blockBtnMob4" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Малоинвазивная хирургия</button>
+                                        <button id="blockBtn5" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Обмен опытом с зарубежными врачами</button>
+                                        <button id="blockBtnMob6" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Квоты на лечение</button>
+                                        <button id="blockBtnMob7" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Свой отель на территории Центра</button>
+                                        <button id="blockBtnMob8" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Своя лаборатория</button>  
+                                        <button id="blockBtnMob9" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15"><svg width="32" height="10" viewBox="0 0 32 10" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1.5" y="1.5" width="29" height="7" rx="3.5" stroke="#85898C" stroke-width="3"/></svg>Ортопедический салон на территории Центра</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="block_right_f">
+                        <div class="text_block_right active" id="blockRight1">
+                            <h2>Эндопротезирование</h2>
+                            <p>В Центре проводятся операции по эндопротезированию крупных (коленные, <br> тазобедренные, плечевые, локтевые) и мелких (суставы пальцев) суставов. После <br> подобных операций пациент забывает о болях в суставах и возвращается к активной <br> жизни.</p>
+                            <p class="last_p">В Центре используются современные эндопротезы ведущих мировых (Германии, США, <br> Великобритании и др.) и отечественных производителей. Материалы, из которых <br> изготавливают современные эндопротезы суставов (высококачественные сплавы <br> металлов, керамика, пористый конструкционный тантал, хирургический полиэтилен), <br> обладают высокой прочностью и хорошей приживаемостью в организме человека.</p>
+                            <a href="#">Подробнее</a>
+                            <div class="block_img">
+                                <img src="img/img_feat.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text_block_right" id="blockRight2">
+                            <h2>Эндопротезирование2</h2>
+                            <p>В Центре проводятся операции по эндопротезированию крупных (коленные, <br> тазобедренные, плечевые, локтевые) и мелких (суставы пальцев) суставов. После <br> подобных операций пациент забывает о болях в суставах и возвращается к активной <br> жизни.</p>
+                            <a href="#">Подробнее</a>
+                            <div class="block_img">
+                                <img src="img/img_feat.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text_block_right" id="blockRight3">
+                            <h2>Эндопротезирование3</h2>
+                            <p class="last_p">В Центре используются современные эндопротезы ведущих мировых (Германии, США, <br> Великобритании и др.) и отечественных производителей. Материалы, из которых <br> изготавливают современные эндопротезы суставов (высококачественные сплавы <br> металлов, керамика, пористый конструкционный тантал, хирургический полиэтилен), <br> обладают высокой прочностью и хорошей приживаемостью в организме человека.</p>
+                            <a href="#">Подробнее</a>
+                            <div class="block_img">
+                                <img src="img/img_feat.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text_block_right" id="blockRight4">
+                            <h2>Эндопротезирование4</h2>
+                            <p class="last_p">В Центре используются современные эндопротезы ведущих мировых (Германии, США, <br> Великобритании и др.) и отечественных производителей. Материалы, из которых <br> изготавливают современные эндопротезы суставов (высококачественные сплавы <br> металлов, керамика, пористый конструкционный тантал, хирургический полиэтилен), <br> обладают высокой прочностью и хорошей приживаемостью в организме человека.</p>
+                            <a href="#">Подробнее</a>
+                            <div class="block_img">
+                                <img src="img/img_feat.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text_block_right" id="blockRight5">
+                            <h2>Эндопротезирование5</h2>
+                            <p class="last_p">В Центре используются современные эндопротезы ведущих мировых (Германии, США, <br> Великобритании и др.) и отечественных производителей. Материалы, из которых <br> изготавливают современные эндопротезы суставов (высококачественные сплавы <br> металлов, керамика, пористый конструкционный тантал, хирургический полиэтилен), <br> обладают высокой прочностью и хорошей приживаемостью в организме человека.</p>
+                            <a href="#">Подробнее</a>
+                            <div class="block_img">
+                                <img src="img/img_feat.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text_block_right" id="blockRight6">
+                            <h2>Эндопротезирование6</h2>
+                            <p class="last_p">В Центре используются современные эндопротезы ведущих мировых (Германии, США, <br> Великобритании и др.) и отечественных производителей. Материалы, из которых <br> изготавливают современные эндопротезы суставов (высококачественные сплавы <br> металлов, керамика, пористый конструкционный тантал, хирургический полиэтилен), <br> обладают высокой прочностью и хорошей приживаемостью в организме человека.</p>
+                            <a href="#">Подробнее</a>
+                            <div class="block_img">
+                                <img src="img/img_feat.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text_block_right" id="blockRight7">
+                            <h2>Эндопротезирование7</h2>
+                            <p>В Центре проводятся операции по эндопротезированию крупных (коленные, <br> тазобедренные, плечевые, локтевые) и мелких (суставы пальцев) суставов. После <br> подобных операций пациент забывает о болях в суставах и возвращается к активной <br> жизни.</p>
+                            <a href="#">Подробнее</a>
+                            <div class="block_img">
+                                <img src="img/img_feat.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text_block_right" id="blockRight8">
+                            <h2>Эндопротезирование8</h2>
+                            <p>В Центре проводятся операции по эндопротезированию крупных (коленные, <br> тазобедренные, плечевые, локтевые) и мелких (суставы пальцев) суставов. После <br> подобных операций пациент забывает о болях в суставах и возвращается к активной <br> жизни.</p>
+                            <a href="#">Подробнее</a>
+                            <div class="block_img">
+                                <img src="img/img_feat.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text_block_right" id="blockRight9">
+                            <h2>Эндопротезирование9</h2>
+                            <p>В Центре проводятся операции по эндопротезированию крупных (коленные, <br> тазобедренные, плечевые, локтевые) и мелких (суставы пальцев) суставов. После <br> подобных операций пациент забывает о болях в суставах и возвращается к активной <br> жизни.</p>
+                            <a href="#">Подробнее</a>
+                            <div class="block_img">
+                                <img src="img/img_feat.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="press_center_block">
+            <div class="container">
+                <div class="block_center">
+                    <div class="block_title">
+                        <h2>Пресс-центр</h2>
+                        <div class="block_tabs">
+                            <a href="#" class="active">Новости ФЦТОЭ</a>
+                            <a href="#">Новости МИНЗДРАВА</a>
+                            <a href="#">СМИ</a>
+                            <a href="#">Статьи</a>
+                            <a href="#">Все разделы</a>
+                            <a href="#">Все новости</a>
+                        </div>
+                    </div>
+                    <div class="slider_block_one">
+                        <div class="opacity-left"></div>
+                        <div class="opacity-right"></div>
+                        <div class="swiper mySwiper6 swiper-container">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <div class="item item_wrap">
+                                    <div class="img_tem">
+                                       <img src="img/prescenter.png" alt=""> 
+                                    </div>
+                                    <div class="text_item">
+                                        <div class="date">
+                                            <span>08.12.2023</span>
+                                            <span>15:45</span>
+                                        </div>
+                                        <div class="block_box">
+                                            <a href="#" class="item_blue_btn">Отоларинголог</a>
+                                            <a href="#" class="item_blue_btn">ЛОР</a>
+                                            <a href="#" class="item_blue_btn">Носовое кровотечение</a>
+                                        </div>
+                                        <a href="#"><h3>Ассоциация законодательных органов государственной власти субъектов Российской Федерации ПФО в Чебоксарах</h3></a>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="item item_wrap">
+                                    <div class="img_tem">
+                                       <img src="img/prescenter1.png" alt=""> 
+                                    </div>
+                                    <div class="text_item">
+                                        <div class="date">
+                                            <span>08.12.2023</span>
+                                            <span>15:45</span>
+                                        </div>
+                                        <div class="block_box">
+                                            <a href="#" class="item_blue_btn">Отоларинголог</a>
+                                            <a href="#" class="item_blue_btn">ЛОР</a>
+                                            <a href="#" class="item_blue_btn">Носовое кровотечение</a>
+                                        </div>
+                                        <a href="#"><h3>С Новым годом, маленькие пациенты!</h3></a>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="item item_wrap">
+                                    <div class="img_tem">
+                                       <img src="img/prescenter2.png" alt=""> 
+                                    </div>
+                                    <div class="text_item">
+                                        <div class="date">
+                                            <span>08.12.2023</span>
+                                            <span>15:45</span>
+                                        </div>
+                                        <div class="block_box">
+                                            <a href="#" class="item_blue_btn">Отоларинголог</a>
+                                            <a href="#" class="item_blue_btn">ЛОР</a>
+                                            <a href="#" class="item_blue_btn">Носовое кровотечение</a>
+                                        </div>
+                                        <a href="#"><h3>Избранные вопросы медицины катастроф</h3></a>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="item item_wrap">
+                                    <div class="img_tem">
+                                       <img src="img/prescenter.png" alt=""> 
+                                    </div>
+                                    <div class="text_item">
+                                        <div class="date">
+                                            <span>08.12.2023</span>
+                                            <span>15:45</span>
+                                        </div>
+                                        <div class="block_box">
+                                            <a href="#" class="item_blue_btn">Отоларинголог</a>
+                                            <a href="#" class="item_blue_btn">ЛОР</a>
+                                            <a href="#" class="item_blue_btn">Носовое кровотечение</a>
+                                        </div>
+                                        <a href="#"><h3>Ассоциация законодательных органов государственной власти субъектов Российской Федерации ПФО в Чебоксарах</h3></a>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="item item_wrap">
+                                    <div class="img_tem">
+                                       <img src="img/prescenter1.png" alt=""> 
+                                    </div>
+                                    <div class="text_item">
+                                        <div class="date">
+                                            <span>08.12.2023</span>
+                                            <span>15:45</span>
+                                        </div>
+                                        <div class="block_box">
+                                            <a href="#" class="item_blue_btn">Отоларинголог</a>
+                                            <a href="#" class="item_blue_btn">ЛОР</a>
+                                            <a href="#" class="item_blue_btn">Носовое кровотечение</a>
+                                        </div>
+                                        <a href="#"><h3>С Новым годом, маленькие пациенты!</h3></a>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="item item_wrap">
+                                    <div class="img_tem">
+                                       <img src="img/prescenter2.png" alt=""> 
+                                    </div>
+                                    <div class="text_item">
+                                        <div class="date">
+                                            <span>08.12.2023</span>
+                                            <span>15:45</span>
+                                        </div>
+                                        <div class="block_box">
+                                            <a href="#" class="item_blue_btn">Отоларинголог</a>
+                                            <a href="#" class="item_blue_btn">ЛОР</a>
+                                            <a href="#" class="item_blue_btn">Носовое кровотечение</a>
+                                        </div>
+                                        <a href="#"><h3>Избранные вопросы медицины катастроф</h3></a>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="swiper_arrow">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div> 
+                    <div class="block_bottom">
+                        <img src="img/logo_slide.svg" alt="">
+                        <h4>Что делать при подозрении на заражение вирусом <a href="#">гепатита С</a> <br> или выявлении антител к вирусу? </h4>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section class="comment_our_users">
+            <div class="container">
+                <div class="comment_users">
+                    <div class="top_title">
+                        <div class="title_comment">
+                            <h2>Отзывы наших пациентов</h2>
+                        </div>
+                        <div class="btn_comment">
+                            <a href="#" class="blue_btn">Оставить отзыв</a>
+                            <a href="#" class="red_btn">Посмотреть все отзывы</a>
+                        </div>
+                    </div>
+                    <div class="comment_all">
+                        <div class="item_com">
+                            <div class="top_block">
+                                <div class="img_com">
+                                    <img src="img/commendd.png" alt="">
+                                </div>
+                                <div class="info_com_users">
+                                    <h3>Куреев А.А.</h3>
+                                    <h4>Республика Мордовия</h4>
+                                    <div class="starts_block">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star no-checked"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main_comment">
+                                <div class="info_m content-block">
+                                    <h4>Дата посещения центра: 01.12.2023</h4>
+                                    <h5>Услуга: Компьютерная томография</h5>
+                                    <p class="text">Хочу выразить огромную благодарность всему медперсоналу, а также отдельно хочу поблагодарить Чиркова Николая Николаевича. Я у Вас побывал уже дв...</p>
+                                    <p class="hidden-content">ажды, очень доволен качеством обслуживания и профессионализмом специалистов. Спасибо за ваш нелегкий труд!!! Всем здравия желаю!</p>
+                                    <button  class="show-more-btn">Читать дальше</button>
+                                    <div class="date_p">
+                                        20.12.2023 10:53
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item_com">
+                            <div class="top_block">
+                                <div class="img_com">
+                                    <img src="img/commendd.png" alt="">
+                                </div>
+                                <div class="info_com_users">
+                                    <h3>Черкашина Р.И.</h3>
+                                    <h4>г. Калуга</h4>
+                                    <div class="starts_block">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star no-checked"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main_comment">
+                                <div class="info_m content-block">
+                                    <h4>Дата посещения центра: 01.12.2023</h4>
+                                    <h5>Услуга: Компьютерная томография</h5>
+                                    <p class="text">Выражаю огромную благодарность всему медицинскому персоналу отделения (№5) в лице заведующего Чиркова Н.Н., лечащего врача Яковлева В.Н., медицинских сесте...</p>
+                                    <p class="hidden-content">р Тяпкиной Т.Н., Белковой Т.А., Узюкиной Г.П., Александровой Д.Н., Григорьевой Т.А. – за ваш высокий профессионализм, трудолюбие, доброе отношение к пациентам. Желаю вам здоровья, успехов в вашем нелегком труде, хорошего настроения. Вы лучшие!!! С наступающим Новым 2024 годом!</p>
+                                    <button  class="show-more-btn">Читать дальше</button>
+                                    <div class="date_p">
+                                        13.12.2023 16:29
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item_com">
+                            <div class="top_block">
+                                <div class="img_com">
+                                    <img src="img/commendd.png" alt="">
+                                </div>
+                                <div class="info_com_users">
+                                    <h3>Соколова Е.Н</h3>
+                                    <h4>г. Пенза</h4>
+                                    <div class="starts_block">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main_comment">
+                                <div class="info_m content-block">
+                                    <h4>Дата посещения центра: 01.12.2023</h4>
+                                    <h5>Услуга: Компьютерная томография</h5>
+                                    <p class="text">Уважаемый Николай Станиславович! Обращаюсь к Вам, как к Главному доктору ФГБУ «Федеральный центр травматологии, ортопедии и эндопротезирования» г. Че...</p>
+                                    <p class="hidden-content">боксары. Огромное спасибо, что изыскали возможность сократить моё время ожидания операции. В Вашем Центре, в отделении №2 мне проведена операция по эндопротезированию тазобедренного сустава. Я из г. Пензы, мне 57 лет. Восхищена организацией всей работы центра - Спасибо!!! Вам как руководителю!!! Восхищена высокими технологиями проведения операций, высокой квалификацией и добрым отношением к пациентам Ваших сотрудников (хирургов, анестезиологов, реабилитологов, медсестёр и всех тех, кто принимал участие в процессе). Впервые в своей жизни вижу в нашей стране ИДЕАЛ медицинского учреждения. Не называю ни имён, ни фамилий, потому что у Вас только ЛУЧШИЕ! Пожалуйста, озвучьте мою огромную благодарность всему Вашему коллективу! СПАСИБО!!!</p>
+                                    <button  class="show-more-btn">Читать дальше</button>
+                                    <div class="date_p">
+                                        18.12.2023 10:35
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn_bottom">
+                        <div class="name_btn">
+                            <img src="img/logo_commend.svg" alt="">
+                            <h3>НЕЗАВИСИМАЯ ОЦЕНКА КАЧЕСТВА УСЛОВИЙ ОКАЗАНИЯ УСЛУГ МЕДИЦИНСКИМИ ОРГАНИЗАЦИЯМИ</h3>
+                        </div>
+                        <div class="btn_last">
+                            <a href="#">Оценить</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="questions_answers_two"> 
+            <div class="container">
+                <div class="questions_answers">
+                    <div class="title_block">
+                        <h2>Вопросы и ответы</h2>
+                        <a href="#">Посмотреть все вопросы</a>
+                    </div>
+                    <div class="block_forms">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="accordion_block">
+                                    <div class="accordion" id="accordionExample1">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Как попасть на оперативное лечение в Центр
+                                            </button>
+                                          </h2>
+                                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample1">
+                                            <div class="accordion-body">
+                                             <p>Для решения вопроса о возможности и необходимости оперативного лечения в Центре рекомендуется консультация врача травматолога-ортопеда (взрослые и дети), врача-нейрохирурга Центра в очной или заочной форме.  </p>
+                                             <a href="#">Записаться на прием</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Где найти прейскурант цен на платные услуги
+                                            </button>
+                                          </h2>
+                                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+                                            <div class="accordion-body">
+                                                <p>Для решения вопроса о возможности и необходимости оперативного лечения в Центре рекомендуется консультация врача травматолога-ортопеда (взрослые и дети), врача-нейрохирурга Центра в очной или заочной форме.  </p>
+                                                <a href="#">Записаться на прием</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Какие документы нужны для приема
+                                            </button>
+                                          </h2>
+                                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+                                            <div class="accordion-body">
+                                                <p>Для решения вопроса о возможности и необходимости оперативного лечения в Центре рекомендуется консультация врача травматолога-ортопеда (взрослые и дети), врача-нейрохирурга Центра в очной или заочной форме.  </p>
+                                                <a href="#">Записаться на прием</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                                Как прислать рентгеновские снимки и протоколы МРТ
+                                              </button>
+                                            </h2>
+                                            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+                                              <div class="accordion-body">
+                                                  <p>Для решения вопроса о возможности и необходимости оперативного лечения в Центре рекомендуется консультация врача травматолога-ортопеда (взрослые и дети), врача-нейрохирурга Центра в очной или заочной форме.  </p>
+                                                  <a href="#">Записаться на прием</a>
+                                              </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                            Как направить обращение
+                                            </button>
+                                        </h2>
+                                        <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+                                            <div class="accordion-body">
+                                                <p>Для решения вопроса о возможности и необходимости оперативного лечения в Центре рекомендуется консультация врача травматолога-ортопеда (взрослые и дети), врача-нейрохирурга Центра в очной или заочной форме.  </p>
+                                                <a href="#">Записаться на прием</a>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="form_g">
+                                    <h4>Задайте вопрос онлайн</h4>
+                                    <p>Мы перезвоним, или ответим вам 
+                                        на e-mail в течение дня в рабочее время</p>
+                                    <form>
+                                        <div class="input_box">
+                                            <input type="text" name="iName" oninput="checkName();" placeholder="Ваше имя">
+                                            <span id="iNameOutput"></span>
+                                        </div>
+                                        <div class="input_box">
+                                            <input type="number" name="iNumber" oninput="checkNumber();" placeholder="Ваш номер телефона">
+                                            <span id="iNumberOutput"></span>
+                                        </div>
+                                        <div class="input_box">
+                                            <input type="email" name="iEmail" oninput="checkEmail();" placeholder="Ваш e-mail">
+                                            <span id="iEmailOutput"></span>
+                                        </div>
+                                        <textarea placeholder="Задайте вопрос"></textarea>
+                                        <div class="block_ch">
+                                            <div class="checkboxes__item">
+                                                <label class="checkbox style-c">
+                                                  <input type="checkbox" required/>
+                                                  <div class="checkbox__checkmark"></div>
+                                                  <div class="checkbox__body"></div>
+                                                </label>
+                                            </div>
+                                            <p>Я согласен с <a href="#">Политикой конфиденциальности</a></p>
+                                        </div>
+                                        <button>Отправить вопрос</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <div class="contact_block">
+                    <div class="title_block">
+                        <h2>Контакты</h2>
+                    </div>
+                    <div class="block_items">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item_contact">
+                                    <div class="block_top">
+                                        <span>Контакт центр</span>
+                                        <a href="tel:+78352706070">+7 (8352) 70-60-70</a>
+                                    </div>
+                                    <div class="block_bottom">
+                                        <div class="section_group">
+                                            <span>Приемная</span>
+                                            <a href="tel:+78352706000">+7 (8352) 70-60-00</a>
+                                        </div>
+                                        <div class="section_group">
+                                            <span>Поликлиника</span>
+                                            <a href="tel:+78352706017">+7 (8352) 70-60-17</a>
+                                        </div>
+                                        <div class="section_group">
+                                            <span>Каб. платных услуг</span>
+                                            <a href="tel:+78352706050">+7 (8352) 70-60-50</a>
+                                        </div>
+                                    </div>
+                                    <div class="block_bottom second_bottom">
+                                        <div class="section_group">
+                                            <span>Рентген. отделение</span>
+                                            <a href="tel:+78352706016">+7 (8352) 70-60-16</a>
+                                        </div>
+                                        <div class="section_group">
+                                            <span>Дневной стационар</span>
+                                            <a href="tel:+78352706030">+7 (8352) 70-60-30</a>
+                                        </div>
+                                        <div class="section_group">
+                                            <span>Гостиница Мотус</span>
+                                            <a href="tel:88352706040">8 (8352) 70-60-40</a>
+                                        </div>
+                                    </div>
+                                    <div class="look_a">
+                                        <a href="#">Посмотреть все номера</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="block_works">
+                                    <div class="block_top">
+                                        <div class="left_text">
+                                            <span>Часы работы</span>
+                                        </div>
+                                        <div class="block_right">
+                                            <div class="work_group">
+                                                <span>Пн-Пт</span>
+                                                <h4>9:00-20:00</h4>
+                                            </div>
+                                            <div class="work_group">
+                                                <span>Сб-Вс</span>
+                                                <h4>9:00-18:00</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="block_bottom">
+                                        <div class="block_emeil">
+                                            <span>Почтовый <br> 
+                                                адрес</span>
+                                            <p>428020, Российская Федерация, <br> Чувашская Республика, г. Чебоксары, <br> ул. Федора Гладкова, д. 33</p>
+                                        </div>
+                                        <div class="block_emeil second_emeil">
+                                            <span>E-mail</span>
+                                            <a href="mailto:fc@orthoscheb.ru">fc@orthoscheb.ru</a>
+                                        </div>
+                                        <div class="block_send_emeil">
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/mail.svg" alt="">Отправить письмо на e-mail</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="how_get_us">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="block_left">
+                                    <h3>Как к нам доехать</h3>
+                                    <div class="by_car">
+                                        <div class="block_img">
+                                            <img src="img/by_car.png" alt="">
+                                            <h4>На автомобиле</h4>
+                                        </div>
+                                        <a href="#">Проложить маршрут</a>
+                                    </div>
+                                    <div class="block_accordion">
+                                        <div class="block_top">
+                                            <img src="img/by_car.png" alt="">
+                                            <h4>Общественным транспортом</h4>
+                                        </div>
+                                        <p>До остановки «Медицинский центр» идет следующий транспорт: <span>Троллейбус 21, Маршрутное такси 5, Маршрутное такси 220</span></p>
+                                        <div class="accordion" id="accordionExample2">
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                                    Если вы едете от железнодорожного вокзала
+                                                </button>
+                                              </h2>
+                                              <div id="collapse5" class="accordion-collapse collapse show" data-bs-parent="#accordionExample2">
+                                                <div class="accordion-body">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deserunt deleniti iste magni laudantium in optio consequuntur eius labore nulla pariatur natus totam ipsum. Numquam natus totam dignissimos id. Rerum?
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                                    Если вы едете от аэропорта
+                                                </button>
+                                              </h2>
+                                              <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
+                                                <div class="accordion-body">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel deleniti nam architecto, iusto id et dolor natus ad harum exercitationem soluta incidunt perspiciatis mollitia rerum laudantium, ab quibusdam reiciendis animi?
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                                    Если вы едете от Центрального автовокзала
+                                                </button>
+                                              </h2>
+                                              <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
+                                                <div class="accordion-body">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, placeat? Nulla sunt commodi culpa ducimus impedit a, provident sequi, odit asperiores nobis minus iusto, soluta veritatis corporis! Ipsam, minima consequuntur?
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                                    Если вы едете от Пригородного автовокзала
+                                                  </button>
+                                                </h2>
+                                                <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
+                                                  <div class="accordion-body">
+                                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatum nesciunt magnam molestias facere tenetur, maiores voluptatibus quos nobis accusantium natus atque dolore nihil, accusamus distinctio deleniti expedita porro labore?
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="map">
+                                    <div class="btn_share">
+                                        <a href="#"><img src="img/Shar.svg" alt="">Поделиться ссылкой</a>
+                                    </div>
+                                    <iframe src="https://yandex.com/map-widget/v1/?um=constructor%3A50fde09d2ededdd9b9a38a829f2f471d847cadfc780480b401007f7d31fb120c&amp;source=constructor" width="664" height="641" frameborder="24"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="licenses">
+            <div class="container">
+                <div class="block_licenses">
+                    <div class="title_block">
+                        <h2>Лицензии</h2>
+                        <a href="#">Правовая информация</a>
+                    </div>
+                    <div class="block_slider">
+                        <div class="opacity-left"></div>
+                        <div class="opacity-right"></div>
+                        <div class="swiper mySwiper8 swiper-container">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <div class="sertificates">
+                                    <img src="img/svid.png" alt="" class="fanyImgTab">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="sertificates">
+                                    <img src="img/svid1.png" alt="" class="fanyImgTab">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="sertificates">
+                                    <img src="img/svid2.png" alt="" class="fanyImgTab">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="sertificates">
+                                    <img src="img/svid3.png" alt="" class="fanyImgTab">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="sertificates">
+                                    <img src="img/svid4.png" alt="" class="fanyImgTab">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="sertificates">
+                                    <img src="img/svid5.png" alt="" class="fanyImgTab">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="sertificates">
+                                    <img src="img/svid6.png" alt="" class="fanyImgTab">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="sertificates">
+                                    <img src="img/svid7.png" alt="" class="seventh_img fanyImgTab">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="sertificates">
+                                    <img src="img/svid8.png" alt="" class="fanyImgTab">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="sertificates">
+                                    <img src="img/svid9.png" alt="" class="fanyImgTab">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="sertificates">
+                                    <img src="img/svid10.png" alt="" class="fanyImgTab">
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="sertificates">
+                                    <img src="img/svid11.png" alt="" class="fanyImgTab">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="swiper_arrow mySwiper8_arrow">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                    <div class="supervisory_authorities">
+                        <h4>Контролирующие <br> органы</h4>
+                        <div class="authorities">
+                            <img src="img/authorities.png" alt="">
+                            <p>Минздрав РФ</p>
+                        </div>
+                        <div class="authorities">
+                            <img src="img/authorities1.png" alt="">
+                            <p>Минздрав ЧР</p>
+                        </div>
+                        <div class="authorities">
+                            <img src="img/authorities2.png" alt="">
+                            <p>Росздравнадзор <br> по ЧР</p>
+                        </div>
+                        <div class="authorities">
+                            <img src="img/authorities3.png" alt="">
+                            <p>Роспотребназор <br> по ЧР</p>
+                        </div>
+                        <div class="authorities">
+                            <img src="img/authorities4.png" alt="">
+                            <p>ТФОМС ЧР</p>
+                        </div>
+                        <div class="authorities">
+                            <img src="img/authorities5.png" alt="">
+                            <p>ФФОМС</p>
+                        </div>
+                        <div class="authorities">
+                            <img src="img/authorities6.png" alt="">
+                            <p>г. Чебоксары</p>
+                        </div>
+                        <div class="authorities">
+                            <img src="img/authorities7.png" alt="">
+                            <p>Правовые акты</p>
+                        </div>
+                    </div>
+                    <div class="supervisory_authorities_mob">
+                        <div class="swiper mySwiper9">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <div class="authorities">
+                                    <img src="img/authorities.png" alt="">
+                                    <p>Минздрав РФ</p>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="authorities">
+                                    <img src="img/authorities1.png" alt="">
+                                    <p>Минздрав ЧР</p>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="authorities">
+                                    <img src="img/authorities2.png" alt="">
+                                    <p>Росздравнадзор <br> по ЧР</p>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="authorities">
+                                    <img src="img/authorities3.png" alt="">
+                                    <p>Роспотребназор <br> по ЧР</p>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="authorities">
+                                    <img src="img/authorities4.png" alt="">
+                                    <p>ТФОМС ЧР</p>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="authorities">
+                                    <img src="img/authorities5.png" alt="">
+                                    <p>ФФОМС</p>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="authorities">
+                                    <img src="img/authorities6.png" alt="">
+                                    <p>г. Чебоксары</p>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="authorities">
+                                    <img src="img/authorities7.png" alt="">
+                                    <p>Правовые акты</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer_block">
+                    <div class="block_connect">
+                        <a href="#"><img src="img/logo1.svg" alt=""></a>
+                        <a href="tel:+78352706070" class="tell">+7 (8352) 70-60-70</a>
+                        <a href="mailto:fc@orthoscheb.ru" class="mailto">fc@orthoscheb.ru</a>
+                        <p>г. Чебоксары, ул. Федора <br> Гладкова, д. 33</p>
+                        <div class="block_inter">
+                            <a href="#"><img src="img/whatsapp.svg" alt=""></a>
+                            <a href="#"><img src="img/tg.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="menu_group">
+                        <div class="group">
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="#">Версия <br>
+                                        для слабовидящих</a></li>
+                                    <li><a href="#">Правовая информация</a></li>
+                                    <li><a href="#">Политика <br>
+                                        конфиденциальности</a></li>
+                                    <li><a href="#">Пользовательское <br> соглашение</a></li>
+                                    <li><a href="#">Использование cookie</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu second_m">
+                                <ul>
+                                    <li><a href="#">Услуги</a></li>
+                                    <li><a href="#">Пациентам</a></li>
+                                    <li><a href="#">Врачи</a></li>
+                                    <li><a href="#">О центре</a></li>
+                                    <li><a href="#">Вопросы и ответы</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="#">Отель Motus</a></li>
+                                    <li><a href="#">Ортопедический салон</a></li>
+                                    <li><a href="#">Отзывы</a></li>
+                                    <li><a href="#">Пресс-центр</a></li>
+                                    <li><a href="#">Образование</a></li>
+                                    <li><a href="#">Вакансии</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bottom_block">
+                            <img src="img/img_foot.svg" alt="">
+                            <p>НЕЗАВИСИМАЯ ОЦЕНКА КАЧЕСТВА УСЛОВИЙ ОКАЗАНИЯ УСЛУГ МЕДИЦИНСКИМИ <br> ОРГАНИЗАЦИЯМИ</p>
+                            <a href="#" class="small_blue_btn">Оценить</a>
+                        </div>
+                    </div>
+                    <div class="personal_a">
+                        <div class="personal_area">
+                            <a href="#"><img src="img/men.svg" alt=""></a>
+                            <a href="#" class="pers_a">Личный кабинет</a>
+                            <nav class="navbar">
+                                <a href=""></a>
+                                <select class="language-selector" onchange="alert('https://location.loc?lang=' + this.value)">
+                                  <option value="en">ENG</option>
+                                  <option value="ru" selected>RU</option>
+                                  <option value="de">DE</option>
+                                </select>
+                            </nav>
+                        </div>
+                        <a href="#" class="phone btn_red" data-bs-toggle="modal" data-bs-target="#exampleModal1"><img src="img/tel.svg" alt="">Заказать звонок</a>
+                        <a href="#" class="sms btn_blue" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/sms.svg" alt="">Отправить письмо</a>
+                        <div class="block_bottom">
+                            <a href="#" class="btn_red" data-bs-toggle="modal" data-bs-target="#exampleModal2">Записаться на прием</a>
+                        </div>
+                        <div class="bottom_block mob">
+                            <img src="img/img_foot.svg" alt="">
+                            <div class="block_r">
+                                <p>НЕЗАВИСИМАЯ ОЦЕНКА КАЧЕСТВА УСЛОВИЙ ОКАЗАНИЯ УСЛУГ МЕДИЦИНСКИМИ <br> ОРГАНИЗАЦИЯМИ</p>
+                                <a href="#" class="small_blue_btn">Оценить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer> 
+    </div>
+
+    <div class="fany-modal">
+        <div class="fany_wrap">
+            <button class="btn-close fany-close"></button>
+            <img src="img/doc3.png" alt="" class="fany-img">
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Отправить письмо на e-mail</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="block_unput">
+                    <div class="input_box">
+                        <input type="text" name="iName" oninput="checkName();" placeholder="Ваше имя">
+                        <span id="iNameOutput"></span>
+                    </div>
+                    <div class="input_box">
+                        <input type="email" name="iEmail" oninput="checkEmail();" placeholder="Ваш e-mail">
+                        <span id="iEmailOutput"></span>
+                    </div>
+                </div>
+                <input type="text" placeholder="Тема обращения">
+                <textarea placeholder="Сообщение (не менее 180 символов)"></textarea>
+                <div class="file-upload-container">
+                    <div class="file-upload-area" onclick="document.getElementById('fileInput').click()">
+                        <h3>Нажмите, чтобы добавить файлы к сообщению</h3>
+                        <p>Можно добавить до 5 файлов формата jpg, jpeg, png, pdf, gif и размером до 1Мбайт.</p>
+                        <input type="file" id="fileInput" multiple style="display:none" accept=".jpg,.jpeg,.png,.pdf,.gif" onchange="handleFiles(this.files)">
+                    </div>
+                </div>
+                <div id="fileList"></div>
+                <div class="block_ch">
+                    <div class="checkboxes__item">
+                        <label class="checkbox style-c">
+                          <input type="checkbox" required/>
+                          <div class="checkbox__checkmark"></div>
+                          <div class="checkbox__body"></div>
+                        </label>
+                    </div>
+                    <p>Я согласен с <a href="#">Политикой конфиденциальности</a></p>
+                </div>
+                <button class="button_form">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Отправить письмо на e-mail</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="block_unput">
+                    <div class="input_box">
+                        <input type="text" name="iName" oninput="checkName();" placeholder="Ваше имя">
+                        <span id="iNameOutput"></span>
+                    </div>
+                    <div class="input_box">
+                        <input type="email" name="iEmail" oninput="checkEmail();" placeholder="Ваш e-mail">
+                        <span id="iEmailOutput"></span>
+                    </div>
+                </div>
+                <input type="text" placeholder="Тема обращения">
+                <textarea placeholder="Сообщение (не менее 180 символов)"></textarea>
+                <div class="file-upload-container">
+                    <div class="file-upload-area" onclick="document.getElementById('fileInput').click()">
+                        <h3>Нажмите, чтобы добавить файлы к сообщению</h3>
+                        <p>Можно добавить до 5 файлов формата jpg, jpeg, png, pdf, gif и размером до 1Мбайт.</p>
+                        <input type="file" id="fileInput" multiple style="display:none" accept=".jpg,.jpeg,.png,.pdf,.gif" onchange="handleFiles(this.files)">
+                    </div>
+                </div>
+                <div id="fileList"></div>
+                <div class="block_ch">
+                    <div class="checkboxes__item">
+                        <label class="checkbox style-c">
+                          <input type="checkbox" required/>
+                          <div class="checkbox__checkmark"></div>
+                          <div class="checkbox__body"></div>
+                        </label>
+                    </div>
+                    <p>Я согласен с <a href="#">Политикой конфиденциальности</a></p>
+                </div>
+                <button class="button_form">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Отправить письмо на e-mail</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="block_unput">
+                    <div class="input_box">
+                        <input type="text" name="iName" oninput="checkName();" placeholder="Ваше имя">
+                        <span id="iNameOutput"></span>
+                    </div>
+                    <div class="input_box">
+                        <input type="email" name="iEmail" oninput="checkEmail();" placeholder="Ваш e-mail">
+                        <span id="iEmailOutput"></span>
+                    </div>
+                </div>
+                <input type="text" placeholder="Тема обращения">
+                <textarea placeholder="Сообщение (не менее 180 символов)"></textarea>
+                <div class="file-upload-container">
+                    <div class="file-upload-area" onclick="document.getElementById('fileInput').click()">
+                        <h3>Нажмите, чтобы добавить файлы к сообщению</h3>
+                        <p>Можно добавить до 5 файлов формата jpg, jpeg, png, pdf, gif и размером до 1Мбайт.</p>
+                        <input type="file" id="fileInput" multiple style="display:none" accept=".jpg,.jpeg,.png,.pdf,.gif" onchange="handleFiles(this.files)">
+                    </div>
+                </div>
+                <div id="fileList"></div>
+                <div class="block_ch">
+                    <div class="checkboxes__item">
+                        <label class="checkbox style-c">
+                          <input type="checkbox" required/>
+                          <div class="checkbox__checkmark"></div>
+                          <div class="checkbox__body"></div>
+                        </label>
+                    </div>
+                    <p>Я согласен с <a href="#">Политикой конфиденциальности</a></p>
+                </div>
+                <button class="button_form">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

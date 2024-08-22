@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="style/style.css">
+    <title>Пресс-центр</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="block_big">
+            <header>
+                <div class="container">
+                    <div class="header_block">
+                        <div class="logo">
+                            <a href="#"><img src="img/logo.svg" alt=""></a>
+                        </div>
+                        <div class="block_menu">
+                            <div class="block_search">
+                                <form>
+                                    <div class="input-container">
+                                        <i class="" id="hidder_search"><img src="img/search.svg" alt=""></i>
+                                        <input type="text">
+                                    </div>
+
+                                </form>
+                            </div>
+                            <div class="connec_block">
+                                <a href="tel:+78352706070" class="tel">+7 (8352) 70-60-70</a>
+                                <a href="#" class="whatsapp"><img src="img/whatsapp.svg" alt=""></a>
+                                <a href="#"><img src="img/tg.svg" alt=""></a>
+                            </div>
+                            <div class="personal_area">
+                                <a href="#"><img src="img/men.svg" alt=""></a>
+                                <a href="#" class="pers_a">Личный кабинет</a>
+                                <nav class="navbar">
+                                    <a href=""></a>
+                                    <select class="language-selector"
+                                        onchange="alert('https://location.loc?lang=' + this.value)">
+                                        <option value="en">ENG</option>
+                                        <option value="ru" selected>RU</option>
+                                        <option value="de">DE</option>
+                                    </select>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="hamburger-menu">
+                            <input id="menu__toggle" type="checkbox" />
+                            <label class="menu__btn" for="menu__toggle">
+                                <span></span>
+                            </label>
+                            <ul class="menu__box">
+                                <a href="#"><img src="img/logo.svg" alt=""></a>
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Пациентам</a></li>
+                                <li><a href="#">Врачи</a></li>
+                                <li><a href="#">Вопросы и ответы</a></li>
+                                <li><a href="#">О центре</a></li>
+                                <li><a href="#">Пресс-центр</a></li>
+                                <li><a href="#">Образование</a></li>
+                                <li><a href="#" class="contact">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="home_block">
+                <div class="container">
+                    <div class="home">
+                        <h1>Пресс-центр</h1>
+                        <a data-bs-toggle="modal" data-bs-target="#exampleModal2">Записаться на прием</a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_block">
+                <div class="container">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Пациентам</a></li>
+                            <li><a href="#">Врачи</a></li>
+                            <li><a href="#">Вопросы и ответы</a></li>
+                            <li><a href="#">О центре</a></li>
+                            <li><a href="#" class="active">Пресс-центр</a></li>
+                            <li><a href="#">Образование</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block_medical_care">
+            <div class="breadcrumb_block">
+                <div class="container">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#" class="gv">Главная <img src="img/Icon.svg"
+                                        alt=""></a></li>
+                            <li class="breadcrumb-item"><a href="#" class="gv">Пресс-центр <img src="img/Icon.svg"
+                                        alt=""></a></li>
+                            <li class="breadcrumb-item"><a href="#" class="gv">Новости <img src="img/Icon.svg"
+                                        alt=""></a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><a href="#">Отмечаем свой 50-й День
+                                    Рождения!</a></li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+        <div class="card_news">
+            <div class="container">
+                <div class="news_banner">
+                    <div class="img_news_card">
+                        <img src="img/Card_news.png" alt="">
+                    </div>
+                    <div class="info_news_card">
+                        <h5>Дата публикации: 16.07.2022
+                        </h5>
+                        <h3>Отмечаем свой 50-й День Рождения!</h3>
+                        <p>Ровно 50 лет назад начал свою работу многопрофильный медицинский центр во 2-м Сыромятническом
+                            переулке. Пациенты старше 18 лет могут пройти здесь диагностику и лечение по более чем 30
+                            медицинским направлениям.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="centr_news">
+            <div class="container">
+                <div class="all_btn_centr">
+                    <div class="btn_news-wrap btns-fixed">
+                        <div class="btn_news_card dropdown">
+                            <a href="#" class="btn_blue">Вернуться к новостям</a>
+                            <button class="btn_danger dropbtn">Поделиться</button>
+                            <div class="dropdown-content">
+                                <a onclick="copyToClipboard()"><img src="img/link-01.svg" alt="">Скопировать ссылку</a>
+                                <a href="#"><img src="img/vk 1.svg" alt="">ВКонтакте</a>
+                                <a href="#"><img src="img/telegram 2.svg" alt="">Telegram</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="all-wrap">
+                        <div class="about_centr">
+                            <h3>О центре</h3>
+                            <p>Приём ведут более 60 высококвалифицированных врачей (в том числе кандидаты медицинских наук и
+                                врачи высшей категории) по таким востребованным специальностям, как терапия, хирургия,
+                                гинекология, урология, гастроэнтерология, кардиология, неврология, оториноларингология,
+                                онкология, физиотерапия и др.</p>
+                            <p>Клиника на Курской обладает широкими диагностическими возможностями. УЗИ и рентген
+                                выполняются на аппаратах экспертного класса. Гастро- и колоноскопия могут проводиться под
+                                седацией. Кроме того, пациентам медцентра доступны различные виды функциональных
+                                исследований: ЭКГ, ЭЭГ, ФВД, аудиометрия и др. Сдать анализы (более 3500 видов) можно
+                                ежедневно с 7.30 до 21.00.</p>
+                            <p>В клинике работает процедурный кабинет, кабинеты массажа и физиотерапии. Здесь можно при
+                                наличии нетрудоспособности получить больничный лист, оформить медицинские справки,
+                                приобрести годовую программу медицинского обслуживания, пройти диспансеризацию.</p>
+                            <p>Удачное расположение в центре Москвы позволяет работающим пациентам проходить диагностические
+                                и некоторые лечебные процедуры непосредственно во время своего обеденного перерыва или сразу
+                                по окончании рабочего дня, что очень удобно.</p>
+                        </div>
+
+                        <div class="all_slideraa">
+                            <div class="ultrasound">
+                                <div class="container">
+                
+                                    <div class="slider_block_uzi">
+                                        <div class="slider_block_one">
+                                            <div class="swiper mySwiper2">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide">
+                                                        <div class="item">
+                                                            <img src="img/uzii1.png" alt="" class="fanyImgTab">
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="item">
+                                                            <img src="img/uzii1.png" alt="" class="fanyImgTab">
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="item">
+                                                            <img src="img/uzii1.png" alt="" class="fanyImgTab">
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="item">
+                                                            <img src="img/uzii1.png" alt="" class="fanyImgTab">
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="item">
+                                                            <img src="img/uzii1.png" alt="" class="fanyImgTab">
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="item">
+                                                            <img src="img/uzii1.png" alt="" class="fanyImgTab">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-button-next"></div>
+                                                <div class="swiper-button-prev"></div>
+                                                <div class="swiper-pagination"></div>
+                                            </div>
+                                        </div>
+                                        <div class="btn_slider btn_slider-big">
+                                            <a href="#"><img src="img/arrow-narrow-left.png" alt="">Предыдущая новость</a>
+                                            <a href="#">Следующая новость <img src="img/arrow-narrow-right.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <footer class="footer_f3">
+            <div class="container">
+                <div class="footer_block">
+                    <div class="block_connect">
+                        <a href="#"><img src="img/logo1.svg" alt=""></a>
+                        <a href="tel:+78352706070" class="tell">+7 (8352) 70-60-70</a>
+                        <a href="mailto:fc@orthoscheb.ru" class="mailto">fc@orthoscheb.ru</a>
+                        <p>г. Чебоксары, ул. Федора <br> Гладкова, д. 33</p>
+                        <div class="block_inter">
+                            <a href="#"><img src="img/whatsapp.svg" alt=""></a>
+                            <a href="#"><img src="img/tg.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="menu_group">
+                        <div class="group">
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="#">Версия <br>
+                                            для слабовидящих</a></li>
+                                    <li><a href="#">Правовая информация</a></li>
+                                    <li><a href="#">Политика <br>
+                                            конфиденциальности</a></li>
+                                    <li><a href="#">Пользовательское <br> соглашение</a></li>
+                                    <li><a href="#">Использование cookie</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu second_m">
+                                <ul>
+                                    <li><a href="#">Услуги</a></li>
+                                    <li><a href="#">Пациентам</a></li>
+                                    <li><a href="#">Врачи</a></li>
+                                    <li><a href="#">О центре</a></li>
+                                    <li><a href="#">Вопросы и ответы</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="#">Отель Motus</a></li>
+                                    <li><a href="#">Ортопедический салон</a></li>
+                                    <li><a href="#">Отзывы</a></li>
+                                    <li><a href="#">Пресс-центр</a></li>
+                                    <li><a href="#">Образование</a></li>
+                                    <li><a href="#">Вакансии</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bottom_block">
+                            <img src="img/img_foot.svg" alt="">
+                            <p>НЕЗАВИСИМАЯ ОЦЕНКА КАЧЕСТВА УСЛОВИЙ ОКАЗАНИЯ УСЛУГ МЕДИЦИНСКИМИ <br> ОРГАНИЗАЦИЯМИ</p>
+                            <a href="#" class="small_blue_btn">Оценить</a>
+                        </div>
+                    </div>
+                    <div class="personal_a">
+                        <div class="personal_area">
+                            <a href="#"><img src="img/men.svg" alt=""></a>
+                            <a href="#" class="pers_a">Личный кабинет</a>
+                            <nav class="navbar">
+                                <a href=""></a>
+                                <select class="language-selector"
+                                    onchange="alert('https://location.loc?lang=' + this.value)">
+                                    <option value="en">ENG</option>
+                                    <option value="ru" selected>RU</option>
+                                    <option value="de">DE</option>
+                                </select>
+                            </nav>
+                        </div>
+                        <a href="#" class="phone btn_red" data-bs-toggle="modal" data-bs-target="#exampleModal1"><img
+                                src="img/tel.svg" alt="">Заказать звонок</a>
+                        <a href="#" class="sms btn_blue" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
+                                src="img/sms.svg" alt="">Отправить письмо</a>
+                        <div class="block_bottom">
+                            <a href="#" class="btn_red" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal2">Записаться на прием</a>
+                        </div>
+                        <div class="bottom_block mob">
+                            <img src="img/img_foot.svg" alt="">
+                            <div class="block_r">
+                                <p>НЕЗАВИСИМАЯ ОЦЕНКА КАЧЕСТВА УСЛОВИЙ ОКАЗАНИЯ УСЛУГ МЕДИЦИНСКИМИ <br> ОРГАНИЗАЦИЯМИ
+                                </p>
+                                <a href="#" class="small_blue_btn">Оценить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <div class="fany-modal">
+        <div class="fany_wrap">
+            <button class="btn-close fany-close"></button>
+            <img src="img/" alt="" class="fany-img">
+        </div>
+    </div>
+
+    <div class="modal_comment">
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="title">
+                            <h2>Оставить отзыв</h2>
+                            <h3>Оцените прием:</h3>
+                            <div class="info_com_users">
+                                <div class="star_ra">
+                                    <div class="rating">
+                                        <span class="rating__result"></span>
+                                        <i class="rating__star far fa-star"></i>
+                                        <i class="rating__star far fa-star"></i>
+                                        <i class="rating__star far fa-star"></i>
+                                        <i class="rating__star far fa-star"></i>
+                                        <i class="rating__star far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="custom__form">
+                            <div class="img_add_info">
+                                <div class="add_img">
+                                    <div class="custom__image-container">
+                                        <label id="add-img-label" for="add-single-img"> <img src="img/plus-24.svg"
+                                                alt=""> </label>
+                                        <input type="file" id="add-single-img" accept="image/jpeg" />
+                                    </div>
+                                    <input type="file" id="image-input" name="photos" accept="image/jpeg" multiple />
+                                </div>
+                                <div class="info_img">
+                                    <h4>Вы можете добавить вашу фотографию, чтобы сделать отзыв более информативным</h4>
+                                    <p>Рекомендуем квадратный размер изображения 512х512px и вес файла не более 2Мб</p>
+                                </div>
+                            </div>
+                            <div class="input_all">
+                                <div class="form_cont">
+                                    <input type="text" placeholder="Ваше имя">
+                                    <input type="text" placeholder="Откуда вы?">
+                                    <input type="email" placeholder="Ваш e-mail">
+                                </div>
+                                <div class="form_conte">
+                                    <select name="" id="">
+                                        <option value="">Оказанная услуга</option>
+                                        <option value="">Оказанная услуга</option>
+                                    </select>
+                                    <input placeholder="Дата посещения центра" class="textbox-n" type="text"
+                                        onfocus="(this.type='date')" onblur="(this.type='text')" id="date">
+                                </div>
+                                <div class="textare_block">
+                                    <textarea name="" id=""
+                                        placeholder="Поделитесь мнением о специалисте и прошедшем приеме"></textarea>
+                                </div>
+                                <div class="block_ch">
+                                    <div class="checkboxes__item">
+                                        <label class="checkbox style-c">
+                                            <input type="checkbox" />
+                                            <div class="checkbox__checkmark"></div>
+                                            <div class="checkbox__body"></div>
+                                        </label>
+                                    </div>
+                                    <p>Я согласен с <a href="#">Политикой конфиденциальности</a></p>
+                                </div>
+
+                            </div>
+
+                            <div class="form__controls"><button type="submit">Отправить</button></div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Отправить письмо на e-mail</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="block_unput">
+                            <div class="input_box">
+                                <input type="text" name="iName" oninput="checkName();" placeholder="Ваше имя">
+                                <span id="iNameOutput"></span>
+                            </div>
+                            <div class="input_box">
+                                <input type="email" name="iEmail" oninput="checkEmail();" placeholder="Ваш e-mail">
+                                <span id="iEmailOutput"></span>
+                            </div>
+                        </div>
+                        <input type="text" placeholder="Тема обращения">
+                        <textarea placeholder="Сообщение (не менее 180 символов)"></textarea>
+                        <div class="file-upload-container">
+                            <div class="file-upload-area" onclick="document.getElementById('fileInput').click()">
+                                <h3>Нажмите, чтобы добавить файлы к сообщению</h3>
+                                <p>Можно добавить до 5 файлов формата jpg, jpeg, png, pdf, gif и размером до 1Мбайт.</p>
+                                <input type="file" id="fileInput" multiple style="display:none"
+                                    accept=".jpg,.jpeg,.png,.pdf,.gif" onchange="handleFiles(this.files)">
+                            </div>
+                        </div>
+                        <div id="fileList"></div>
+                        <div class="block_ch">
+                            <div class="checkboxes__item">
+                                <label class="checkbox style-c">
+                                    <input type="checkbox" />
+                                    <div class="checkbox__checkmark"></div>
+                                    <div class="checkbox__body"></div>
+                                </label>
+                            </div>
+                            <p>Я согласен с <a href="#">Политикой конфиденциальности</a></p>
+                        </div>
+                        <button class="button_form">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Отправить письмо на e-mail</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="block_unput">
+                            <div class="input_box">
+                                <input type="text" name="iName" oninput="checkName();" placeholder="Ваше имя">
+                                <span id="iNameOutput"></span>
+                            </div>
+                            <div class="input_box">
+                                <input type="email" name="iEmail" oninput="checkEmail();" placeholder="Ваш e-mail">
+                                <span id="iEmailOutput"></span>
+                            </div>
+                        </div>
+                        <input type="text" placeholder="Тема обращения">
+                        <textarea placeholder="Сообщение (не менее 180 символов)"></textarea>
+                        <div class="file-upload-container">
+                            <div class="file-upload-area" onclick="document.getElementById('fileInput').click()">
+                                <h3>Нажмите, чтобы добавить файлы к сообщению</h3>
+                                <p>Можно добавить до 5 файлов формата jpg, jpeg, png, pdf, gif и размером до 1Мбайт.</p>
+                                <input type="file" id="fileInput" multiple style="display:none"
+                                    accept=".jpg,.jpeg,.png,.pdf,.gif" onchange="handleFiles(this.files)">
+                            </div>
+                        </div>
+                        <div id="fileList"></div>
+                        <div class="block_ch">
+                            <div class="checkboxes__item">
+                                <label class="checkbox style-c">
+                                    <input type="checkbox" />
+                                    <div class="checkbox__checkmark"></div>
+                                    <div class="checkbox__body"></div>
+                                </label>
+                            </div>
+                            <p>Я согласен с <a href="#">Политикой конфиденциальности</a></p>
+                        </div>
+                        <button class="button_form">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Отправить письмо на e-mail</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="block_unput">
+                            <div class="input_box">
+                                <input type="text" name="iName" oninput="checkName();" placeholder="Ваше имя">
+                                <span id="iNameOutput"></span>
+                            </div>
+                            <div class="input_box">
+                                <input type="email" name="iEmail" oninput="checkEmail();" placeholder="Ваш e-mail">
+                                <span id="iEmailOutput"></span>
+                            </div>
+                        </div>
+                        <input type="text" placeholder="Тема обращения">
+                        <textarea placeholder="Сообщение (не менее 180 символов)"></textarea>
+                        <div class="file-upload-container">
+                            <div class="file-upload-area" onclick="document.getElementById('fileInput').click()">
+                                <h3>Нажмите, чтобы добавить файлы к сообщению</h3>
+                                <p>Можно добавить до 5 файлов формата jpg, jpeg, png, pdf, gif и размером до 1Мбайт.</p>
+                                <input type="file" id="fileInput" multiple style="display:none"
+                                    accept=".jpg,.jpeg,.png,.pdf,.gif" onchange="handleFiles(this.files)">
+                            </div>
+                        </div>
+                        <div id="fileList"></div>
+                        <div class="block_ch">
+                            <div class="checkboxes__item">
+                                <label class="checkbox style-c">
+                                    <input type="checkbox" />
+                                    <div class="checkbox__checkmark"></div>
+                                    <div class="checkbox__body"></div>
+                                </label>
+                            </div>
+                            <p>Я согласен с <a href="#">Политикой конфиденциальности</a></p>
+                        </div>
+                        <button class="button_form">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script> 
+        function handleScroll() {
+            const img = document.querySelector('.btn_news_card');
+            const imgAbout = document.querySelector('.btns-fixed');
+            const rect = imgAbout.getBoundingClientRect();
+            const aboutDoctors = document.querySelector('.btns-fixed');
+            const aboutDoctorsRect = aboutDoctors.getBoundingClientRect();
+
+            if (rect.top <= 0 && aboutDoctorsRect.bottom - img.clientHeight > 0) {
+                img.classList.add('fixed');
+                img.classList.remove('stopped');
+                img.style.top = '10px';
+            } else if (aboutDoctorsRect.bottom <= img.clientHeight) {
+                img.classList.remove('fixed');
+                img.classList.add('stopped');
+                img.style.top = (aboutDoctorsRect.height - img.clientHeight) + 'px';
+            } else {
+                img.classList.remove('fixed');
+                img.classList.remove('stopped');
+                img.style.top = '';
+            }
+        }
+
+        function checkMediaQuery() {
+            if (window.matchMedia('(min-width: 991px)').matches) {
+                window.addEventListener('scroll', handleScroll);
+            } else {
+                window.removeEventListener('scroll', handleScroll);
+            }
+        }
+
+        checkMediaQuery();
+
+        window.addEventListener('resize', checkMediaQuery);
+
+    </script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

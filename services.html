@@ -1,0 +1,2205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">                    
+               
+    <title>Услуги</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="block_big">
+            <header>
+                <div class="container">
+                    <div class="header_block">
+                        <div class="logo">
+                            <a href="#"><img src="img/logo.svg" alt=""></a>
+                        </div>
+                        <div class="block_menu">
+                            <div class="block_search">
+                                <form>
+                                    <div class="input-container">
+                                        <i class="" id="hidder_search"><img src="img/search.svg" alt=""></i>
+                                        <input type="text">
+                                    </div>
+                                  
+                                  </form>
+                            </div>
+                            <div class="connec_block">
+                                <a href="tel:+78352706070" class="tel">+7 (8352) 70-60-70</a>
+                                <a href="#" class="whatsapp"><img src="img/whatsapp.svg" alt=""></a>
+                                <a href="#"><img src="img/tg.svg" alt=""></a>
+                            </div>
+                            <div class="personal_area">
+                                <a href="#"><img src="img/men.svg" alt=""></a>
+                                <a href="#" class="pers_a">Личный кабинет</a>
+                                <nav class="navbar">
+                                    <a href=""></a>
+                                    <select class="language-selector" onchange="alert('https://location.loc?lang=' + this.value)">
+                                      <option value="en">ENG</option>
+                                      <option value="ru" selected>RU</option>
+                                      <option value="de">DE</option>
+                                    </select>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="hamburger-menu">
+                            <input id="menu__toggle" type="checkbox"/>
+                            <label class="menu__btn" for="menu__toggle">
+                                <span></span>
+                            </label>
+                            <ul class="menu__box">
+                                <a href="#"><img src="img/logo.svg" alt=""></a>
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Пациентам</a></li>
+                                <li><a href="#">Врачи</a></li>
+                                <li><a href="#">Вопросы и ответы</a></li>
+                                <li><a href="#">О центре</a></li>
+                                <li><a href="#">Пресс-центр</a></li>
+                                <li><a href="#">Образование</a></li>
+                                <li><a href="#" class="contact">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="home_block">
+                <div class="container">
+                    <div class="home">
+                        <h1>Услуги</h1>
+                        <a data-bs-toggle="modal" data-bs-target="#exampleModal2">Записаться на прием</a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_block">
+                <div class="container">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#" class="active">Услуги</a></li>
+                            <li><a href="#">Пациентам</a></li>
+                            <li><a href="#">Врачи</a></li>
+                            <li><a href="#">Вопросы и ответы</a></li>
+                            <li><a href="#">О центре</a></li>
+                            <li><a href="#">Пресс-центр</a></li>
+                            <li><a href="#">Образование</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="block_medical_care">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#" class="gv">Главная <img src="img/Icon.svg" alt=""></a></li>
+                        <li class="breadcrumb-item active" aria-current="page"><a href="#">Услуги</a></li>
+                    </ol>
+                </nav>
+                <div class="block_tab">
+                    <div class="text_block">
+                        <h2>Виды медицинской <br> помощи </h2>
+                    </div>
+                    <div class="block_right">
+                        <div class="search-box">
+                            <input type="text" class="search-input"  id="searchInput" placeholder="Введите запрос">
+                        
+                            <button class="search-button" id="searchInput_btn">
+                                <img src="img/search1.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="tab">
+                            <button class="tablinks active" onclick="openCity(event, 'London')">По направлению</button>
+                            <button class="tablinks" onclick="openCity(event, 'Paris')">По названию</button>
+                            <button class="tablinks" onclick="openCity(event, 'Tokyo')">По диагнозу</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="tab_group" >
+                    <div id="London" class="tabcontent ">
+                        <div class="block_dec searchBlocks desktop" id="desktopBlock1">
+                            <div class="menu_block btn_special tab-container2">
+                                <div class="tab2 active-tab2" data-linkid="tab1">
+                                    Все услуги
+                                </div>
+                                <div class="tab2" data-linkid="tab30">
+                                    Диагностик
+    
+                                </div>
+                                <div class="tab2" data-linkid="tab31">
+                                    Поликлиника
+    
+                                </div>
+                                <div class="tab2" data-linkid="tab32">
+                                    Медицинская экспертиза 
+    
+                                </div>
+                                <div class="tab2" data-linkid="tab33">
+                                    Доврачебная медицинская помощь 
+    
+                                </div>
+                            </div>
+                            <div class="menu_block2 btn_special tab-container2">
+                                <div class="tab2" data-linkid="tab34">
+                                    Реабилитация
+    
+                                </div>
+                                <div class="tab2" data-linkid="tab35">
+                                    Стационар
+    
+                                </div>
+                            </div>
+                            <div id="tab1" class="block_towards tab-content2 active-content">
+                                <div class="block_text">
+                                    <h3>Диагностика</h3>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Авторефрактометрия</p>
+                                                <p>Ангиография</p>
+                                                <p>Ангиография артерий <br> нижних конечностей</p>
+                                                <p>Аноскопия</p>
+                                                <p>Артроскопия</p>
+                                                <p>Аудиометрия</p>
+                                                <p>Биоимпедансометрия</p>
+                                                <p>Бронхоскопия</p>
+                                                <p>Вагиноскопия</p>
+                                                <p>Видеокольпоскопия</p>
+                                                <p>Гастроскопия   </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Гастроскопия во сне</p>
+                                                <p>Колоноскопия</p>
+                                                <p>Компьютерная томография</p>
+                                                <p>Коронарография</p>
+                                                <p>Коронарошунтография</p>
+                                                <p>КТ брюшной полости</p>
+                                                <p>КТ легких</p>
+                                                <p>КТ-ангиография аорты <br> и подвздошных артерий</p>
+                                                <p>КТ-ангиография легочных <br> артерий</p>
+                                                <p>КТ-энтерография</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Маммография</p>
+                                                <p>МР-миелография</p>
+                                                <p>МРТ брюшной полости</p>
+                                                <p>МРТ всего тела</p>
+                                                <p>Нейросонография</p>
+                                                <p>Оптическая когерентная <br> томография (ОКТ)</p>
+                                                <p>Пульсоксиметрия</p>
+                                                <p>Радиотермометрия (РТМ)</p>
+                                                <p>Рентген</p>
+                                                <p>Рентгенография грудного <br> отдела позвоночника</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Скрининг 1 триместра</p>
+                                                <p>Скрининг 2 триместра</p>
+                                                <p>Трихоскопия</p>
+                                                <p>УЗИ</p>
+                                                <p>УЗИ брюшной полости</p>
+                                                <p>УЗИ мочевого пузыря</p>
+                                                <p>УЗИ поджелудочной железы</p>
+                                                <p>ЭКГ (электрокардиография)</p>
+                                                <p>Эндоскопия</p>
+                                                <p>Эхокардиография</p>
+                                                <p>Эхоэнцефалография (ЭхоЭГ)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block_text">
+                                    <h3>Поликлиника</h3>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Аллерголог</p>
+                                                <p>Анестезиолог</p>
+                                                <p>Гастроэнтеролог</p>
+                                                <p>Гематолог</p>
+                                                <p>Гинеколог</p>
+                                                <p>Дерматолог</p>
+                                                <p>Инфекционист</p>
+                                                <p>Кардиолог</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Косметолог</p>
+                                                <p>Логопед</p>
+                                                <p>Маммолог</p>
+                                                <p>Мануальный терапевт</p>
+                                                <p>Невролог</p>
+                                                <p>Онколог</p>
+                                                <p>Отоларинголог (ЛОР)</p>
+                                                <p>Офтальмолог</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Педиатр</p>
+                                                <p>Пластический хирург</p>
+                                                <p>Проктолог</p>
+                                                <p>Психотерапевт</p>
+                                                <p>Пульмонолог</p>
+                                                <p>Ревматолог</p>
+                                                <p>Репродуктолог</p>
+                                                <p>Сосудистый хирург</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Стоматолог</p>
+                                                <p>Стоматолог-хирург</p>
+                                                <p>Терапевт</p>
+                                                <p>Травматолог</p>
+                                                <p>Уролог</p>
+                                                <p>Флеболог</p>
+                                                <p>Хирург</p>
+                                                <p>Эндокринолог</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block_text">
+                                    <h3>Медицинская экспертиза </h3>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>3D УЗИ</p>
+                                                <p>Авторефрактометрия</p>
+                                                <p>Ангиография</p>
+                                                <p>Ангиография артерий <br> нижних конечностей</p>
+                                                <p>Артроскопия</p>
+                                                <p>Аудиометрия</p>
+                                                <p>Биоимпедансометрия</p>
+                                                <p>Бронхоскопия</p>
+                                                <p>Вагиноскопия</p>
+                                                <p>Видеокольпоскопия</p>
+                                                <p>Гастроскопия</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Гастроскопия во сне</p>
+                                                <p>Колоноскопия</p>
+                                                <p>Компьютерная томография</p>
+                                                <p>Коронарография</p>
+                                                <p>Коронарошунтография</p>
+                                                <p>КТ брюшной полости</p>
+                                                <p>КТ легких</p>
+                                                <p>КТ-ангиография аорты <br> и подвздошных артерий</p>
+                                                <p>КТ-ангиография легочных <br> артерий</p>
+                                                <p>КТ-энтерография</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Маммография</p>
+                                                <p>МР-миелография</p>
+                                                <p>МРТ брюшной полости</p>
+                                                <p>МРТ всего тела</p>
+                                                <p>Нейросонография</p>
+                                                <p>Оптическая когерентная <br> томография (ОКТ)</p>
+                                                <p>Пульсоксиметрия</p>
+                                                <p>Радиотермометрия (РТМ)</p>
+                                                <p>Рентген</p>
+                                                <p>Рентгенография грудного <br> отдела позвоночника</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Скрининг 1 триместра</p>
+                                                <p>Скрининг 2 триместра</p>
+                                                <p>Трихоскопия</p>
+                                                <p>УЗИ</p>
+                                                <p>УЗИ брюшной полости</p>
+                                                <p>УЗИ мочевого пузыря</p>
+                                                <p>УЗИ поджелудочной железы</p>
+                                                <p>ЭКГ (электрокардиография)</p>
+                                                <p>Эндоскопия</p>
+                                                <p>Эхокардиография</p>
+                                                <p>Эхоэнцефалография (ЭхоЭГ)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block_text">
+                                    <h3>Доврачебная медицинская помощь</h3>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Аллерголог</p>
+                                                <p>Анестезиолог</p>
+                                                <p>Гастроэнтеролог</p>
+                                                <p>Гематолог</p>
+                                                <p>Гинеколог</p>
+                                                <p>Дерматолог</p>
+                                                <p>Инфекционист</p>
+                                                <p>Кардиолог</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Косметолог</p>
+                                                <p>Логопед</p>
+                                                <p>Маммолог</p>
+                                                <p>Мануальный терапевт</p>
+                                                <p>Невролог</p>
+                                                <p>Онколог</p>
+                                                <p>Отоларинголог (ЛОР)</p>
+                                                <p>Офтальмолог</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Педиатр</p>
+                                                <p>Пластический хирург</p>
+                                                <p>Проктолог</p>
+                                                <p>Психотерапевт</p>
+                                                <p>Пульмонолог</p>
+                                                <p>Ревматолог</p>
+                                                <p>Репродуктолог</p>
+                                                <p>Сосудистый хирург</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Стоматолог</p>
+                                                <p>Стоматолог-хирург</p>
+                                                <p>Терапевт</p>
+                                                <p>Травматолог</p>
+                                                <p>Уролог</p>
+                                                <p>Флеболог</p>
+                                                <p>Хирург</p>
+                                                <p>Эндокринолог</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block_text">
+                                    <h3>Реабилитация</h3>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>3D УЗИ</p>
+                                                <p>Авторефрактометрия</p>
+                                                <p>Ангиография</p>
+                                                <p>Ангиография артерий <br> нижних конечностей</p>
+                                                <p>Артроскопия</p>
+                                                <p>Аудиометрия</p>
+                                                <p>Биоимпедансометрия</p>
+                                                <p>Бронхоскопия</p>
+                                                <p>Вагиноскопия</p>
+                                                <p>Видеокольпоскопия</p>
+                                                <p>Гастроскопия</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Гастроскопия во сне</p>
+                                                <p>Колоноскопия</p>
+                                                <p>Компьютерная томография</p>
+                                                <p>Коронарография</p>
+                                                <p>Коронарошунтография</p>
+                                                <p>КТ брюшной полости</p>
+                                                <p>КТ легких</p>
+                                                <p>КТ-ангиография аорты <br> и подвздошных артерий</p>
+                                                <p>КТ-ангиография легочных <br> артерий</p>
+                                                <p>КТ-энтерография</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Маммография</p>
+                                                <p>МР-миелография</p>
+                                                <p>МРТ брюшной полости</p>
+                                                <p>МРТ всего тела</p>
+                                                <p>Нейросонография</p>
+                                                <p>Оптическая когерентная <br> томография (ОКТ)</p>
+                                                <p>Пульсоксиметрия</p>
+                                                <p>Радиотермометрия (РТМ)</p>
+                                                <p>Рентген</p>
+                                                <p>Рентгенография грудного <br> отдела позвоночника</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Скрининг 1 триместра</p>
+                                                <p>Скрининг 2 триместра</p>
+                                                <p>Трихоскопия</p>
+                                                <p>УЗИ</p>
+                                                <p>УЗИ брюшной полости</p>
+                                                <p>УЗИ мочевого пузыря</p>
+                                                <p>УЗИ поджелудочной железы</p>
+                                                <p>ЭКГ (электрокардиография)</p>
+                                                <p>Эндоскопия</p>
+                                                <p>Эхокардиография</p>
+                                                <p>Эхоэнцефалография (ЭхоЭГ)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block_text">
+                                    <h3>Стационар</h3>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Аллерголог</p>
+                                                <p>Анестезиолог</p>
+                                                <p>Гастроэнтеролог</p>
+                                                <p>Гематолог</p>
+                                                <p>Гинеколог</p>
+                                                <p>Дерматолог</p>
+                                                <p>Инфекционист</p>
+                                                <p>Кардиолог</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Косметолог</p>
+                                                <p>Логопед</p>
+                                                <p>Маммолог</p>
+                                                <p>Мануальный терапевт</p>
+                                                <p>Невролог</p>
+                                                <p>Онколог</p>
+                                                <p>Отоларинголог (ЛОР)</p>
+                                                <p>Офтальмолог</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Педиатр</p>
+                                                <p>Пластический хирург</p>
+                                                <p>Проктолог</p>
+                                                <p>Психотерапевт</p>
+                                                <p>Пульмонолог</p>
+                                                <p>Ревматолог</p>
+                                                <p>Репродуктолог</p>
+                                                <p>Сосудистый хирург</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Стоматолог</p>
+                                                <p>Стоматолог-хирург</p>
+                                                <p>Терапевт</p>
+                                                <p>Травматолог</p>
+                                                <p>Уролог</p>
+                                                <p>Флеболог</p>
+                                                <p>Хирург</p>
+                                                <p>Эндокринолог</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab30" class="block_towards tab-content2">
+                                <div class="block_text">
+                                    <h3>Диагностика</h3>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Авторефрактометрия</p>
+                                                <p>Ангиография</p>
+                                                <p>Ангиография артерий <br> нижних конечностей</p>
+                                                <p>Аноскопия</p>
+                                                <p>Артроскопия</p>
+                                                <p>Аудиометрия</p>
+                                                <p>Биоимпедансометрия</p>
+                                                <p>Бронхоскопия</p>
+                                                <p>Вагиноскопия</p>
+                                                <p>Видеокольпоскопия</p>
+                                                <p>Гастроскопия   </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Гастроскопия во сне</p>
+                                                <p>Колоноскопия</p>
+                                                <p>Компьютерная томография</p>
+                                                <p>Коронарография</p>
+                                                <p>Коронарошунтография</p>
+                                                <p>КТ брюшной полости</p>
+                                                <p>КТ легких</p>
+                                                <p>КТ-ангиография аорты <br> и подвздошных артерий</p>
+                                                <p>КТ-ангиография легочных <br> артерий</p>
+                                                <p>КТ-энтерография</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Маммография</p>
+                                                <p>МР-миелография</p>
+                                                <p>МРТ брюшной полости</p>
+                                                <p>МРТ всего тела</p>
+                                                <p>Нейросонография</p>
+                                                <p>Оптическая когерентная <br> томография (ОКТ)</p>
+                                                <p>Пульсоксиметрия</p>
+                                                <p>Радиотермометрия (РТМ)</p>
+                                                <p>Рентген</p>
+                                                <p>Рентгенография грудного <br> отдела позвоночника</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Скрининг 1 триместра</p>
+                                                <p>Скрининг 2 триместра</p>
+                                                <p>Трихоскопия</p>
+                                                <p>УЗИ</p>
+                                                <p>УЗИ брюшной полости</p>
+                                                <p>УЗИ мочевого пузыря</p>
+                                                <p>УЗИ поджелудочной железы</p>
+                                                <p>ЭКГ (электрокардиография)</p>
+                                                <p>Эндоскопия</p>
+                                                <p>Эхокардиография</p>
+                                                <p>Эхоэнцефалография (ЭхоЭГ)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab31" class="block_towards tab-content2">
+                                <div class="block_text">
+                                    <h3>Поликлиника</h3>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Аллерголог</p>
+                                                <p>Анестезиолог</p>
+                                                <p>Гастроэнтеролог</p>
+                                                <p>Гематолог</p>
+                                                <p>Гинеколог</p>
+                                                <p>Дерматолог</p>
+                                                <p>Инфекционист</p>
+                                                <p>Кардиолог</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Косметолог</p>
+                                                <p>Логопед</p>
+                                                <p>Маммолог</p>
+                                                <p>Мануальный терапевт</p>
+                                                <p>Невролог</p>
+                                                <p>Онколог</p>
+                                                <p>Отоларинголог (ЛОР)</p>
+                                                <p>Офтальмолог</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Педиатр</p>
+                                                <p>Пластический хирург</p>
+                                                <p>Проктолог</p>
+                                                <p>Психотерапевт</p>
+                                                <p>Пульмонолог</p>
+                                                <p>Ревматолог</p>
+                                                <p>Репродуктолог</p>
+                                                <p>Сосудистый хирург</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Стоматолог</p>
+                                                <p>Стоматолог-хирург</p>
+                                                <p>Терапевт</p>
+                                                <p>Травматолог</p>
+                                                <p>Уролог</p>
+                                                <p>Флеболог</p>
+                                                <p>Хирург</p>
+                                                <p>Эндокринолог</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab32" class="block_towards tab-content2">
+                                <div class="block_text">
+                                    <h3>Медицинская экспертиза </h3>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>3D УЗИ</p>
+                                                <p>Авторефрактометрия</p>
+                                                <p>Ангиография</p>
+                                                <p>Ангиография артерий <br> нижних конечностей</p>
+                                                <p>Артроскопия</p>
+                                                <p>Аудиометрия</p>
+                                                <p>Биоимпедансометрия</p>
+                                                <p>Бронхоскопия</p>
+                                                <p>Вагиноскопия</p>
+                                                <p>Видеокольпоскопия</p>
+                                                <p>Гастроскопия</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Гастроскопия во сне</p>
+                                                <p>Колоноскопия</p>
+                                                <p>Компьютерная томография</p>
+                                                <p>Коронарография</p>
+                                                <p>Коронарошунтография</p>
+                                                <p>КТ брюшной полости</p>
+                                                <p>КТ легких</p>
+                                                <p>КТ-ангиография аорты <br> и подвздошных артерий</p>
+                                                <p>КТ-ангиография легочных <br> артерий</p>
+                                                <p>КТ-энтерография</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Маммография</p>
+                                                <p>МР-миелография</p>
+                                                <p>МРТ брюшной полости</p>
+                                                <p>МРТ всего тела</p>
+                                                <p>Нейросонография</p>
+                                                <p>Оптическая когерентная <br> томография (ОКТ)</p>
+                                                <p>Пульсоксиметрия</p>
+                                                <p>Радиотермометрия (РТМ)</p>
+                                                <p>Рентген</p>
+                                                <p>Рентгенография грудного <br> отдела позвоночника</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Скрининг 1 триместра</p>
+                                                <p>Скрининг 2 триместра</p>
+                                                <p>Трихоскопия</p>
+                                                <p>УЗИ</p>
+                                                <p>УЗИ брюшной полости</p>
+                                                <p>УЗИ мочевого пузыря</p>
+                                                <p>УЗИ поджелудочной железы</p>
+                                                <p>ЭКГ (электрокардиография)</p>
+                                                <p>Эндоскопия</p>
+                                                <p>Эхокардиография</p>
+                                                <p>Эхоэнцефалография (ЭхоЭГ)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab33" class="block_towards tab-content2">
+                                <div class="block_text">
+                                    <h3>Доврачебная медицинская помощь</h3>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Аллерголог</p>
+                                                <p>Анестезиолог</p>
+                                                <p>Гастроэнтеролог</p>
+                                                <p>Гематолог</p>
+                                                <p>Гинеколог</p>
+                                                <p>Дерматолог</p>
+                                                <p>Инфекционист</p>
+                                                <p>Кардиолог</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Косметолог</p>
+                                                <p>Логопед</p>
+                                                <p>Маммолог</p>
+                                                <p>Мануальный терапевт</p>
+                                                <p>Невролог</p>
+                                                <p>Онколог</p>
+                                                <p>Отоларинголог (ЛОР)</p>
+                                                <p>Офтальмолог</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Педиатр</p>
+                                                <p>Пластический хирург</p>
+                                                <p>Проктолог</p>
+                                                <p>Психотерапевт</p>
+                                                <p>Пульмонолог</p>
+                                                <p>Ревматолог</p>
+                                                <p>Репродуктолог</p>
+                                                <p>Сосудистый хирург</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Стоматолог</p>
+                                                <p>Стоматолог-хирург</p>
+                                                <p>Терапевт</p>
+                                                <p>Травматолог</p>
+                                                <p>Уролог</p>
+                                                <p>Флеболог</p>
+                                                <p>Хирург</p>
+                                                <p>Эндокринолог</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab34" class="block_towards tab-content2">
+                                <div class="block_text">
+                                    <h3>Реабилитация</h3>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>3D УЗИ</p>
+                                                <p>Авторефрактометрия</p>
+                                                <p>Ангиография</p>
+                                                <p>Ангиография артерий <br> нижних конечностей</p>
+                                                <p>Артроскопия</p>
+                                                <p>Аудиометрия</p>
+                                                <p>Биоимпедансометрия</p>
+                                                <p>Бронхоскопия</p>
+                                                <p>Вагиноскопия</p>
+                                                <p>Видеокольпоскопия</p>
+                                                <p>Гастроскопия</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Гастроскопия во сне</p>
+                                                <p>Колоноскопия</p>
+                                                <p>Компьютерная томография</p>
+                                                <p>Коронарография</p>
+                                                <p>Коронарошунтография</p>
+                                                <p>КТ брюшной полости</p>
+                                                <p>КТ легких</p>
+                                                <p>КТ-ангиография аорты <br> и подвздошных артерий</p>
+                                                <p>КТ-ангиография легочных <br> артерий</p>
+                                                <p>КТ-энтерография</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Маммография</p>
+                                                <p>МР-миелография</p>
+                                                <p>МРТ брюшной полости</p>
+                                                <p>МРТ всего тела</p>
+                                                <p>Нейросонография</p>
+                                                <p>Оптическая когерентная <br> томография (ОКТ)</p>
+                                                <p>Пульсоксиметрия</p>
+                                                <p>Радиотермометрия (РТМ)</p>
+                                                <p>Рентген</p>
+                                                <p>Рентгенография грудного <br> отдела позвоночника</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Скрининг 1 триместра</p>
+                                                <p>Скрининг 2 триместра</p>
+                                                <p>Трихоскопия</p>
+                                                <p>УЗИ</p>
+                                                <p>УЗИ брюшной полости</p>
+                                                <p>УЗИ мочевого пузыря</p>
+                                                <p>УЗИ поджелудочной железы</p>
+                                                <p>ЭКГ (электрокардиография)</p>
+                                                <p>Эндоскопия</p>
+                                                <p>Эхокардиография</p>
+                                                <p>Эхоэнцефалография (ЭхоЭГ)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab35" class="block_towards tab-content2">
+                                <div class="block_text">
+                                    <h3>Стационар</h3>
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Аллерголог</p>
+                                                <p>Анестезиолог</p>
+                                                <p>Гастроэнтеролог</p>
+                                                <p>Гематолог</p>
+                                                <p>Гинеколог</p>
+                                                <p>Дерматолог</p>
+                                                <p>Инфекционист</p>
+                                                <p>Кардиолог</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Косметолог</p>
+                                                <p>Логопед</p>
+                                                <p>Маммолог</p>
+                                                <p>Мануальный терапевт</p>
+                                                <p>Невролог</p>
+                                                <p>Онколог</p>
+                                                <p>Отоларинголог (ЛОР)</p>
+                                                <p>Офтальмолог</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Педиатр</p>
+                                                <p>Пластический хирург</p>
+                                                <p>Проктолог</p>
+                                                <p>Психотерапевт</p>
+                                                <p>Пульмонолог</p>
+                                                <p>Ревматолог</p>
+                                                <p>Репродуктолог</p>
+                                                <p>Сосудистый хирург</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="text_small">
+                                                <p>Стоматолог</p>
+                                                <p>Стоматолог-хирург</p>
+                                                <p>Терапевт</p>
+                                                <p>Травматолог</p>
+                                                <p>Уролог</p>
+                                                <p>Флеболог</p>
+                                                <p>Хирург</p>
+                                                <p>Эндокринолог</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="results_search" id="results_search">
+                            
+                        </div>
+                        <div class="loader_block loader_block_search loader" id="spinner_al">
+                            <div id="spinner" class="spinner"><img src="img/spinner.gif" alt=""></div>
+                        </div>
+                        
+                        <div class="block_towards mob searchBlocks mobile" id="mobileBlock2">
+                            <div class="menu_block btn_special tab-container4">
+                               <div class="item_mob">
+                                <div class="tab4 active-tab4" data-linkid="tab40">
+                                    Все услуги
+                                </div>
+                                <div class="tab4" data-linkid="tab41">
+                                    Диагностик
+    
+                                </div>
+                               </div>
+                                <div class="tab4" data-linkid="tab42">
+                                    Поликлиника
+    
+                                </div>
+                                <div class="tab4" data-linkid="tab43">
+                                    Медицинская экспертиза 
+    
+                                </div>
+                                <div class="tab4" data-linkid="tab44">
+                                    Доврачебная медицинская помощь 
+    
+                                </div>
+                                <div class="item_mob">
+                                    <div class="tab4" data-linkid="tab45">
+                                        Реабилитация
+        
+                                    </div>
+                                    <div class="tab4" data-linkid="tab46">
+                                        Стационар
+        
+                                    </div>
+                                </div>
+                               
+                            </div>
+                            <div id="tab40" class="accordion_block tab-content4 active-content">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse71" aria-expanded="false" aria-controls="collapse71">
+                                              <h3>Диагностика</h3>
+                                          </button>
+                                        </h2>
+                                        <div id="collapse71" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <div class="text_small">
+                                                <p>Авторефрактометрия</p>
+                                                <p>Ангиография</p>
+                                                <p>Ангиография артерий <br> нижних конечностей</p>
+                                                <p>Аноскопия</p>
+                                                <p>Артроскопия</p>
+                                                <p>Аудиометрия</p>
+                                                <p>Биоимпедансометрия</p>
+                                                <p>Бронхоскопия</p>
+                                                <p>Вагиноскопия</p>
+                                                <p>Видеокольпоскопия</p>
+                                                <p>Гастроскопия</p>
+                                                <p>Гастроскопия во сне</p>
+                                                <p>Колоноскопия</p>
+                                                <p>Компьютерная томография</p>
+                                                <p>Коронарография</p>
+                                                <p>Коронарошунтография</p>
+                                                <p>КТ брюшной полости</p>
+                                                <p>КТ легких</p>
+                                                <p>КТ-ангиография аорты <br> и подвздошных артерий</p>
+                                                <p>КТ-ангиография легочных <br> артерий</p>
+                                                <p>КТ-энтерография</p>
+                                                <p>Маммография</p>
+                                                <p>МР-миелография</p>
+                                                <p>МРТ брюшной полости</p>
+                                                <p>МРТ всего тела</p>
+                                                <p>Нейросонография</p>
+                                                <p>Оптическая когерентная <br> томография (ОКТ)</p>
+                                                <p>Пульсоксиметрия</p>
+                                                <p>Радиотермометрия (РТМ)</p>
+                                                <p>Рентген</p>
+                                                <p>Рентгенография грудного <br> отдела позвоночника</p>
+                                                <p>Скрининг 1 триместра</p>
+                                                <p>Скрининг 2 триместра</p>
+                                                <p>Трихоскопия</p> 
+                                                <p>УЗИ</p>
+                                                <p>УЗИ брюшной полости</p>
+                                                <p>УЗИ мочевого пузыря</p>
+                                                <p>УЗИ поджелудочной железы</p>
+                                                <p>ЭКГ (электрокардиография)</p>
+                                                <p>Эндоскопия</p>
+                                                <p>Эхокардиография</p>
+                                                <p>Эхоэнцефалография (ЭхоЭГ)</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                            <h3>Поликлиника</h3>
+                                        </button>
+                                      </h2>
+                                      <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div class="text_small">
+                                                <p>Аллерголог</p>
+                                                <p>Анестезиолог</p>
+                                                <p>Гастроэнтеролог</p>
+                                                <p>Гематолог</p>
+                                                <p>Гинеколог</p>
+                                                <p>Дерматолог</p>
+                                                <p>Инфекционист</p>
+                                                <p>Кардиолог</p>
+                                                 <p>Косметолог</p>
+                                                <p>Логопед</p>
+                                                <p>Маммолог</p>
+                                                <p>Мануальный терапевт</p>
+                                                <p>Невролог</p>
+                                                <p>Онколог</p>
+                                                <p>Отоларинголог (ЛОР)</p>
+                                                <p>Офтальмолог</p>
+                                                <p>Педиатр</p>
+                                                <p>Пластический хирург</p>
+                                                <p>Проктолог</p>
+                                                <p>Психотерапевт</p>
+                                                <p>Пульмонолог</p>
+                                                <p>Ревматолог</p>
+                                                <p>Репродуктолог</p>
+                                                <p>Сосудистый хирург</p>
+                                                <p>Стоматолог</p>
+                                                <p>Стоматолог-хирург</p>
+                                                <p>Терапевт</p>
+                                                <p>Травматолог</p>
+                                                <p>Уролог</p>
+                                                <p>Флеболог</p>
+                                                <p>Хирург</p>
+                                                <p>Эндокринолог</p>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                              <h3>Медицинская экспертиза </h3>
+                                          </button>
+                                        </h2>
+                                        <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                              <div class="text_small">
+                                                <p>3D УЗИ</p>
+                                                <p>Авторефрактометрия</p>
+                                                <p>Ангиография</p>
+                                                <p>Ангиография артерий <br> нижних конечностей</p>
+                                                <p>Артроскопия</p>
+                                                <p>Аудиометрия</p>
+                                                <p>Биоимпедансометрия</p>
+                                                <p>Бронхоскопия</p>
+                                                <p>Вагиноскопия</p>
+                                                <p>Видеокольпоскопия</p>
+                                                <p>Гастроскопия</p>
+                                                <p>Гастроскопия во сне</p>
+                                                <p>Колоноскопия</p>
+                                                <p>Компьютерная томография</p>
+                                                <p>Коронарография</p>
+                                                <p>Коронарошунтография</p>
+                                                <p>КТ брюшной полости</p>
+                                                <p>КТ легких</p>
+                                                <p>КТ-ангиография аорты <br> и подвздошных артерий</p>
+                                                <p>КТ-ангиография легочных <br> артерий</p>
+                                                <p>КТ-энтерография</p>
+                                                <p>Маммография</p>
+                                                <p>МР-миелография</p>
+                                                <p>МРТ брюшной полости</p>
+                                                <p>МРТ всего тела</p>
+                                                <p>Нейросонография</p>
+                                                <p>Оптическая когерентная <br> томография (ОКТ)</p>
+                                                <p>Пульсоксиметрия</p>
+                                                <p>Радиотермометрия (РТМ)</p>
+                                                <p>Рентген</p>
+                                                <p>Рентгенография грудного <br> отдела позвоночника</p>
+                                                <p>Скрининг 1 триместра</p>
+                                                <p>Скрининг 2 триместра</p>
+                                                <p>Трихоскопия</p>
+                                                <p>УЗИ</p>
+                                                <p>УЗИ брюшной полости</p>
+                                                <p>УЗИ мочевого пузыря</p> 
+                                                <p>УЗИ поджелудочной железы</p>
+                                                <p>ЭКГ (электрокардиография)</p>
+                                                <p>Эндоскопия</p>
+                                                <p>Эхокардиография</p>
+                                                <p>Эхоэнцефалография (ЭхоЭГ)</p>
+                                              </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                            <h3>Доврачебная медицинская помощь </h3>
+                                        </button>
+                                    </h2>
+                                    <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div class="text_small">
+                                                <p>Аллерголог</p>
+                                                <p>Анестезиолог</p>
+                                                <p>Гастроэнтеролог</p>
+                                                <p>Гематолог</p>
+                                                <p>Гинеколог</p>
+                                                <p>Дерматолог</p>
+                                                <p>Инфекционист</p>
+                                                <p>Кардиолог</p>
+                                                <p>Косметолог</p>
+                                                <p>Логопед</p>
+                                                <p>Маммолог</p>
+                                                <p>Мануальный терапевт</p>
+                                                <p>Невролог</p>
+                                                <p>Онколог</p>
+                                                <p>Отоларинголог (ЛОР)</p>
+                                                <p>Офтальмолог</p>
+                                                <p>Педиатр</p>
+                                                <p>Пластический хирург</p>
+                                                <p>Проктолог</p>
+                                                <p>Психотерапевт</p>
+                                                <p>Пульмонолог</p>
+                                                <p>Ревматолог</p>
+                                                <p>Репродуктолог</p>
+                                                <p>Сосудистый хирург</p>
+                                                <p>Стоматолог</p>
+                                                <p>Стоматолог-хирург</p>
+                                                <p>Терапевт</p>
+                                                <p>Травматолог</p>
+                                                <p>Уролог</p>
+                                                <p>Флеболог</p>
+                                                <p>Хирург</p>
+                                                <p>Эндокринолог</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                              <h3>Реабилитация </h3>
+                                          </button>
+                                        </h2>
+                                        <div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                              <div class="text_small">
+                                                <p>3D УЗИ</p>
+                                                <p>Авторефрактометрия</p>
+                                                <p>Ангиография</p>
+                                                <p>Ангиография артерий <br> нижних конечностей</p>
+                                                <p>Артроскопия</p>
+                                                <p>Аудиометрия</p>
+                                                <p>Биоимпедансометрия</p>
+                                                <p>Бронхоскопия</p>
+                                                <p>Вагиноскопия</p>
+                                                <p>Видеокольпоскопия</p>
+                                                <p>Гастроскопия</p>
+                                                <p>Гастроскопия во сне</p>
+                                                <p>Колоноскопия</p>
+                                                <p>Компьютерная томография</p>
+                                                <p>Коронарография</p>
+                                                <p>Коронарошунтография</p>
+                                                <p>КТ брюшной полости</p>
+                                                <p>КТ легких</p>
+                                                <p>КТ-ангиография аорты <br> и подвздошных артерий</p>
+                                                <p>КТ-ангиография легочных <br> артерий</p>
+                                                <p>КТ-энтерография</p>
+                                                <p>Маммография</p>
+                                                <p>МР-миелография</p>
+                                                <p>МРТ брюшной полости</p>
+                                                <p>МРТ всего тела</p>
+                                                <p>Нейросонография</p>
+                                                <p>Оптическая когерентная <br> томография (ОКТ)</p>
+                                                <p>Пульсоксиметрия</p>
+                                                <p>Радиотермометрия (РТМ)</p>
+                                                <p>Рентген</p>
+                                                <p>Рентгенография грудного <br> отдела позвоночника</p>
+                                                <p>Скрининг 1 триместра</p>
+                                                <p>Скрининг 2 триместра</p>
+                                                <p>Трихоскопия</p>
+                                                <p>УЗИ</p>
+                                                <p>УЗИ брюшной полости</p>
+                                                <p>УЗИ мочевого пузыря</p> 
+                                                <p>УЗИ поджелудочной железы</p>
+                                                <p>ЭКГ (электрокардиография)</p>
+                                                <p>Эндоскопия</p>
+                                                <p>Эхокардиография</p>
+                                                <p>Эхоэнцефалография (ЭхоЭГ)</p>
+                                              </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                                <h3>Стационар</h3>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse11" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="text_small">
+                                                    <p>Аллерголог</p>
+                                                    <p>Анестезиолог</p>
+                                                    <p>Гастроэнтеролог</p>
+                                                    <p>Гематолог</p>
+                                                    <p>Гинеколог</p>
+                                                    <p>Дерматолог</p>
+                                                    <p>Инфекционист</p>
+                                                    <p>Кардиолог</p>
+                                                    <p>Косметолог</p>
+                                                    <p>Логопед</p>
+                                                    <p>Маммолог</p>
+                                                    <p>Мануальный терапевт</p>
+                                                    <p>Невролог</p>
+                                                    <p>Онколог</p>
+                                                    <p>Отоларинголог (ЛОР)</p>
+                                                    <p>Офтальмолог</p>
+                                                    <p>Педиатр</p>
+                                                    <p>Пластический хирург</p>
+                                                    <p>Проктолог</p>
+                                                    <p>Психотерапевт</p>
+                                                    <p>Пульмонолог</p>
+                                                    <p>Ревматолог</p>
+                                                    <p>Репродуктолог</p>
+                                                    <p>Сосудистый хирург</p>
+                                                    <p>Стоматолог</p>
+                                                    <p>Стоматолог-хирург</p>
+                                                    <p>Терапевт</p>
+                                                    <p>Травматолог</p>
+                                                    <p>Уролог</p>
+                                                    <p>Флеболог</p>
+                                                    <p>Хирург</p>
+                                                    <p>Эндокринолог</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab41" class="accordion_block tab-content4">
+                                <div class="accordion" id="accordionExample50">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse50" aria-expanded="true" aria-controls="collapse50">
+                                              <h3>Диагностика</h3>
+                                          </button>
+                                        </h2>
+                                        <div id="collapse50" class="accordion-collapse collapse show" data-bs-parent="#accordionExample50">
+                                          <div class="accordion-body">
+                                              <div class="text_small">
+                                                  <p>Авторефрактометрия</p>
+                                                  <p>Ангиография</p>
+                                                  <p>Ангиография артерий <br> нижних конечностей</p>
+                                                  <p>Аноскопия</p>
+                                                  <p>Артроскопия</p>
+                                                  <p>Аудиометрия</p>
+                                                  <p>Биоимпедансометрия</p>
+                                                  <p>Бронхоскопия</p>
+                                                  <p>Вагиноскопия</p>
+                                                  <p>Видеокольпоскопия</p>
+                                                  <p>Гастроскопия</p>
+                                                  <p>Гастроскопия во сне</p>
+                                                  <p>Колоноскопия</p>
+                                                  <p>Компьютерная томография</p>
+                                                  <p>Коронарография</p>
+                                                  <p>Коронарошунтография</p>
+                                                  <p>КТ брюшной полости</p>
+                                                  <p>КТ легких</p>
+                                                  <p>КТ-ангиография аорты <br> и подвздошных артерий</p>
+                                                  <p>КТ-ангиография легочных <br> артерий</p>
+                                                  <p>КТ-энтерография</p>
+                                                  <p>Маммография</p>
+                                                  <p>МР-миелография</p>
+                                                  <p>МРТ брюшной полости</p>
+                                                  <p>МРТ всего тела</p>
+                                                  <p>Нейросонография</p>
+                                                  <p>Оптическая когерентная <br> томография (ОКТ)</p>
+                                                  <p>Пульсоксиметрия</p>
+                                                  <p>Радиотермометрия (РТМ)</p>
+                                                  <p>Рентген</p>
+                                                  <p>Рентгенография грудного <br> отдела позвоночника</p>
+                                                  <p>Скрининг 1 триместра</p>
+                                                  <p>Скрининг 2 триместра</p>
+                                                  <p>Трихоскопия</p> 
+                                                  <p>УЗИ</p>
+                                                  <p>УЗИ брюшной полости</p>
+                                                  <p>УЗИ мочевого пузыря</p>
+                                                  <p>УЗИ поджелудочной железы</p>
+                                                  <p>ЭКГ (электрокардиография)</p>
+                                                  <p>Эндоскопия</p>
+                                                  <p>Эхокардиография</p>
+                                                  <p>Эхоэнцефалография (ЭхоЭГ)</p>
+                                              </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                            <div id="tab42" class="accordion_block tab-content4">
+                                <div class="accordion" id="accordionExample51">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse51" aria-expanded="false" aria-controls="collapse51">
+                                              <h3>Поликлиника</h3>
+                                          </button>
+                                        </h2>
+                                        <div id="collapse51" class="accordion-collapse collapse show" data-bs-parent="#accordionExample51">
+                                          <div class="accordion-body">
+                                              <div class="text_small">
+                                                  <p>Аллерголог</p>
+                                                  <p>Анестезиолог</p>
+                                                  <p>Гастроэнтеролог</p>
+                                                  <p>Гематолог</p>
+                                                  <p>Гинеколог</p>
+                                                  <p>Дерматолог</p>
+                                                  <p>Инфекционист</p>
+                                                  <p>Кардиолог</p>
+                                                   <p>Косметолог</p>
+                                                  <p>Логопед</p>
+                                                  <p>Маммолог</p>
+                                                  <p>Мануальный терапевт</p>
+                                                  <p>Невролог</p>
+                                                  <p>Онколог</p>
+                                                  <p>Отоларинголог (ЛОР)</p>
+                                                  <p>Офтальмолог</p>
+                                                  <p>Педиатр</p>
+                                                  <p>Пластический хирург</p>
+                                                  <p>Проктолог</p>
+                                                  <p>Психотерапевт</p>
+                                                  <p>Пульмонолог</p>
+                                                  <p>Ревматолог</p>
+                                                  <p>Репродуктолог</p>
+                                                  <p>Сосудистый хирург</p>
+                                                  <p>Стоматолог</p>
+                                                  <p>Стоматолог-хирург</p>
+                                                  <p>Терапевт</p>
+                                                  <p>Травматолог</p>
+                                                  <p>Уролог</p>
+                                                  <p>Флеболог</p>
+                                                  <p>Хирург</p>
+                                                  <p>Эндокринолог</p>
+                                              </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                            <div id="tab43" class="accordion_block tab-content4">
+                                <div class="accordion" id="accordionExample52">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse52" aria-expanded="false" aria-controls="collapse52">
+                                                <h3>Доврачебная медицинская помощь </h3>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse52" class="accordion-collapse collapse show" data-bs-parent="#accordionExample52">
+                                            <div class="accordion-body">
+                                                <div class="text_small">
+                                                    <p>Аллерголог</p>
+                                                    <p>Анестезиолог</p>
+                                                    <p>Гастроэнтеролог</p>
+                                                    <p>Гематолог</p>
+                                                    <p>Гинеколог</p>
+                                                    <p>Дерматолог</p>
+                                                    <p>Инфекционист</p>
+                                                    <p>Кардиолог</p>
+                                                    <p>Косметолог</p>
+                                                    <p>Логопед</p>
+                                                    <p>Маммолог</p>
+                                                    <p>Мануальный терапевт</p>
+                                                    <p>Невролог</p>
+                                                    <p>Онколог</p>
+                                                    <p>Отоларинголог (ЛОР)</p>
+                                                    <p>Офтальмолог</p>
+                                                    <p>Педиатр</p>
+                                                    <p>Пластический хирург</p>
+                                                    <p>Проктолог</p>
+                                                    <p>Психотерапевт</p>
+                                                    <p>Пульмонолог</p>
+                                                    <p>Ревматолог</p>
+                                                    <p>Репродуктолог</p>
+                                                    <p>Сосудистый хирург</p>
+                                                    <p>Стоматолог</p>
+                                                    <p>Стоматолог-хирург</p>
+                                                    <p>Терапевт</p>
+                                                    <p>Травматолог</p>
+                                                    <p>Уролог</p>
+                                                    <p>Флеболог</p>
+                                                    <p>Хирург</p>
+                                                    <p>Эндокринолог</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div id="tab44" class="accordion_block tab-content4">
+                                <div class="accordion" id="accordionExample53">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse53" aria-expanded="false" aria-controls="collapse53">
+                                                <h3>Доврачебная медицинская помощь </h3>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse53" class="accordion-collapse collapse show" data-bs-parent="#accordionExample53">
+                                            <div class="accordion-body">
+                                                <div class="text_small">
+                                                    <p>Аллерголог</p>
+                                                    <p>Анестезиолог</p>
+                                                    <p>Гастроэнтеролог</p>
+                                                    <p>Гематолог</p>
+                                                    <p>Гинеколог</p>
+                                                    <p>Дерматолог</p>
+                                                    <p>Инфекционист</p>
+                                                    <p>Кардиолог</p>
+                                                    <p>Косметолог</p>
+                                                    <p>Логопед</p>
+                                                    <p>Маммолог</p>
+                                                    <p>Мануальный терапевт</p>
+                                                    <p>Невролог</p>
+                                                    <p>Онколог</p>
+                                                    <p>Отоларинголог (ЛОР)</p>
+                                                    <p>Офтальмолог</p>
+                                                    <p>Педиатр</p>
+                                                    <p>Пластический хирург</p>
+                                                    <p>Проктолог</p>
+                                                    <p>Психотерапевт</p>
+                                                    <p>Пульмонолог</p>
+                                                    <p>Ревматолог</p>
+                                                    <p>Репродуктолог</p>
+                                                    <p>Сосудистый хирург</p>
+                                                    <p>Стоматолог</p>
+                                                    <p>Стоматолог-хирург</p>
+                                                    <p>Терапевт</p>
+                                                    <p>Травматолог</p>
+                                                    <p>Уролог</p>
+                                                    <p>Флеболог</p>
+                                                    <p>Хирург</p>
+                                                    <p>Эндокринолог</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div id="tab45" class="accordion_block tab-content4">
+                                <div class="accordion" id="accordionExample54">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse54" aria-expanded="false" aria-controls="collapse54">
+                                              <h3>Реабилитация </h3>
+                                          </button>
+                                        </h2>
+                                        <div id="collapse54" class="accordion-collapse collapse show" data-bs-parent="#accordionExample54">
+                                          <div class="accordion-body">
+                                              <div class="text_small">
+                                                <p>3D УЗИ</p>
+                                                <p>Авторефрактометрия</p>
+                                                <p>Ангиография</p>
+                                                <p>Ангиография артерий <br> нижних конечностей</p>
+                                                <p>Артроскопия</p>
+                                                <p>Аудиометрия</p>
+                                                <p>Биоимпедансометрия</p>
+                                                <p>Бронхоскопия</p>
+                                                <p>Вагиноскопия</p>
+                                                <p>Видеокольпоскопия</p>
+                                                <p>Гастроскопия</p>
+                                                <p>Гастроскопия во сне</p>
+                                                <p>Колоноскопия</p>
+                                                <p>Компьютерная томография</p>
+                                                <p>Коронарография</p>
+                                                <p>Коронарошунтография</p>
+                                                <p>КТ брюшной полости</p>
+                                                <p>КТ легких</p>
+                                                <p>КТ-ангиография аорты <br> и подвздошных артерий</p>
+                                                <p>КТ-ангиография легочных <br> артерий</p>
+                                                <p>КТ-энтерография</p>
+                                                <p>Маммография</p>
+                                                <p>МР-миелография</p>
+                                                <p>МРТ брюшной полости</p>
+                                                <p>МРТ всего тела</p>
+                                                <p>Нейросонография</p>
+                                                <p>Оптическая когерентная <br> томография (ОКТ)</p>
+                                                <p>Пульсоксиметрия</p>
+                                                <p>Радиотермометрия (РТМ)</p>
+                                                <p>Рентген</p>
+                                                <p>Рентгенография грудного <br> отдела позвоночника</p>
+                                                <p>Скрининг 1 триместра</p>
+                                                <p>Скрининг 2 триместра</p>
+                                                <p>Трихоскопия</p>
+                                                <p>УЗИ</p>
+                                                <p>УЗИ брюшной полости</p>
+                                                <p>УЗИ мочевого пузыря</p> 
+                                                <p>УЗИ поджелудочной железы</p>
+                                                <p>ЭКГ (электрокардиография)</p>
+                                                <p>Эндоскопия</p>
+                                                <p>Эхокардиография</p>
+                                                <p>Эхоэнцефалография (ЭхоЭГ)</p>
+                                              </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab46" class="accordion_block tab-content4">
+                                <div class="accordion" id="accordionExample55">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse55" aria-expanded="false" aria-controls="collapse55">
+                                                <h3>Стационар</h3>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse55" class="accordion-collapse collapse show" data-bs-parent="#accordionExample55">
+                                            <div class="accordion-body">
+                                                <div class="text_small">
+                                                    <p>Аллерголог</p>
+                                                    <p>Анестезиолог</p>
+                                                    <p>Гастроэнтеролог</p>
+                                                    <p>Гематолог</p>
+                                                    <p>Гинеколог</p>
+                                                    <p>Дерматолог</p>
+                                                    <p>Инфекционист</p>
+                                                    <p>Кардиолог</p>
+                                                    <p>Косметолог</p>
+                                                    <p>Логопед</p>
+                                                    <p>Маммолог</p>
+                                                    <p>Мануальный терапевт</p>
+                                                    <p>Невролог</p>
+                                                    <p>Онколог</p>
+                                                    <p>Отоларинголог (ЛОР)</p>
+                                                    <p>Офтальмолог</p>
+                                                    <p>Педиатр</p>
+                                                    <p>Пластический хирург</p>
+                                                    <p>Проктолог</p>
+                                                    <p>Психотерапевт</p>
+                                                    <p>Пульмонолог</p>
+                                                    <p>Ревматолог</p>
+                                                    <p>Репродуктолог</p>
+                                                    <p>Сосудистый хирург</p>
+                                                    <p>Стоматолог</p>
+                                                    <p>Стоматолог-хирург</p>
+                                                    <p>Терапевт</p>
+                                                    <p>Травматолог</p>
+                                                    <p>Уролог</p>
+                                                    <p>Флеболог</p>
+                                                    <p>Хирург</p>
+                                                    <p>Эндокринолог</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="Paris" class="tabcontent" style="display: none;">
+                        <div class="block_name">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="name_group">
+                                        <div class="spell">
+                                            <h3>А</h3>
+                                            <div class="block_right">
+                                                <p>Авторефрактометрия</p>
+                                                <p>Ангиография</p>
+                                                <p>Ангиография артерий нижних <br> конечностей</p>
+                                                <p>Аноскопия</p>
+                                                <p>Артроскопия</p>
+                                                <p>Артроскопия коленного сустава</p>
+                                                <p>Артроскопия плечевого сустава</p>
+                                                <p>Артроскопия тазобедренного <br> сустава</p>
+                                                <p>Аудиометрия</p>
+                                            </div>
+                                        </div>
+                                        <div class="spell">
+                                            <h3>Б</h3>
+                                            <div class="block_right">
+                                                <p>Биоимпедансометрия</p>
+                                                <p>Бронхоскопия</p>
+                                            </div>
+                                        </div>
+                                        <div class="spell">
+                                            <h3>В</h3>
+                                            <div class="block_right">
+                                                <p>Вагиноскопия</p>
+                                                <p>Вакуумная аспирационная <br> биопсия</p>
+                                                <p>Видео ЭЭГ-мониторинг</p>
+                                                <p>Видеодерматоскопия</p>
+                                                <p>Видеокольпоскопия</p>
+                                                <p>Виртуальная колоноскопия</p>
+                                                <p>Водородный дыхательный тест</p>
+                                            </div>
+                                        </div>
+                                        <div class="spell">
+                                            <h3>К</h3>
+                                            <div class="block_right">
+                                                <p>Кардиореспираторное <br> мониторирование</p>
+                                                <p>Кожные пробы</p>
+                                                <p>Колоноскопия</p>
+                                                <p>КТ верхней и нижней челюстей</p>
+                                                <p>КТ височно-нижнечелюстных <br> суставов</p>
+                                                <p>КТ височных костей</p>
+                                                <p>КТ голеностопного сустава</p>
+                                                <p>КТ гортани</p>
+                                                <p>КТ грудного отдела <br> позвоночника</p>
+                                                <p>КТ коленного сустава</p>
+                                                <p>КТ костей таза</p>
+                                                <p>КТ лицевого черепа</p>
+                                                <p>КТ легких</p>
+                                                <p>КТ-энтерография</p>
+                                                <p>КТГ (кардиотокография плода)</p>
+                                            </div>
+                                        </div>
+                                    </div>               
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="name_group">
+                                        <div class="spell">
+                                            <h3>М</h3>
+                                            <div class="block_right">
+                                                <p>Магнитно-резонансная <br> холангиопанкреатография <br> (МРХПГ)</p>
+                                                <p>Маммография</p>
+                                                <p>МР-исследование «Причины <br> головной боли»</p>
+                                                <p>МР-миелография</p>
+                                                <p>МР-энтерография</p>
+                                                <p>МРТ</p>
+                                                <p>МРТ брюшной полости</p>
+                                                <p>МРТ височно-нижнечелюстного <br> сустава</p>
+                                                <p>МРТ всего тела</p>
+                                                <p>МРТ головного мозга</p>
+                                                <p>МРТ двух коленей</p>
+                                                <p>МРТ двух суставов (кисти, стопы)</p>
+                                                <p>МРТ коленного сустава</p>
+                                                <p>МРТ плода</p>
+                                                <p>МРТ позвоночника</p>
+                                                <p>МРТ пояснично-крестцового <br> отдела позвоночника</p>
+                                                <p>МРТ предстательной железы</p>
+                                                <p>МРТ прямой кишки</p>
+                                                <p>МРТ шейного отдела <br> позвоночника</p>
+                                            </div>
+                                        </div>
+                                        <div class="spell">
+                                            <h3>О</h3>
+                                            <div class="block_right">
+                                                <p>Определение аммиака в крови</p>
+                                                <p>Оптическая когерентная <br> томография (ОКТ)</p>
+                                                <p>Отоакустическая эмиссия</p>
+                                                <p>Офтальмотонометрия</p>
+                                            </div>
+                                        </div>
+                                        <div class="spell">
+                                            <h3>Р</h3>
+                                            <div class="block_right">
+                                                <p>Радиальная протоковая <br> эхография</p>
+                                                <p>Радиотермометрия (РТМ)</p>
+                                                <p>Расширенная кольпоскопия</p>
+                                                <p>Ректороманоскопия</p>
+                                                <p>Рентген</p>
+                                                <p>Рентгенография голеностопного <br> сустава</p>
+                                                <p>Рентгенография грудного отдела <br> позвоночника</p>
+                                                <p>Рентгенография кисти</p>
+                                                <p>Риноманометрия</p>
+                                            </div>
+                                        </div>
+                                    </div>               
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="name_group">
+                                        <div class="spell">
+                                            <h3>У</h3>
+                                            <div class="block_right">
+                                                <p>УЗДС (ультразвуковое дуплексное <br> сканирование)</p>
+                                                <p>УЗИ</p>
+                                                <p>УЗИ брюшной полости</p>
+                                                <p>УЗИ вилочковой железы</p>
+                                                <p>УЗИ желудка <br> и двенадцатиперстной кишки</p>
+                                                <p>УЗИ коленного сустава</p>
+                                                <p>УЗИ лимфатических узлов</p>
+                                                <p>УЗИ матки</p>
+                                                <p>УЗИ молочных желез</p>
+                                                <p>УЗИ мочевого пузыря</p>
+                                                <p>УЗИ мошонки</p>
+                                                <p>УЗИ мягких тканей</p>
+                                                <p>УЗИ органов малого таза</p>
+                                                <p>УЗИ селезенки</p>
+                                                <p>УЗИ сосудов головы и шеи</p>
+                                                <p>УЗИ щитовидной железы</p>
+                                            </div>
+                                        </div>
+                                        <div class="spell">
+                                            <h3>Ф</h3>
+                                            <div class="block_right">
+                                                <p>ФВД (функция внешнего <br> дыхания)</p>
+                                                <p>Фолликулометрия</p>
+                                                <p>Фотография глазного дна</p>
+                                                <p>Функциональная диагностика</p>
+                                            </div>
+                                        </div>
+                                        <div class="spell">
+                                            <h3>Э</h3>
+                                            <div class="block_right">
+                                                <p>ЭКГ (электрокардиография)</p>
+                                                <p>Экспертная кольпоскопия <br> на аппарате Leisegang</p>
+                                                <p>Эластография</p>
+                                                <p>Электронейромиография (ЭНМГ)</p>
+                                                <p>Электроэнцефалография (ЭЭГ)</p>
+                                                <p>Эндоскопия</p>
+                                                <p>Эндоскопия ЛОР-органов</p>
+                                                <p>Эхокардиография</p>
+                                                <p>Эхоэнцефалография (ЭхоЭГ)</p>
+                                            </div>
+                                        </div>
+                                    </div>               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="Tokyo" class="tabcontent" style="display: none;">
+                         <div class="title_block">
+                            <h3>Наиболее подходящие услуги</h3>
+                         </div>
+                         <div class="block_text">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="text_small">
+                                        <p>Магнитно-резонансная <br> холангиопанкреатография (МРХПГ)</p>
+                                        <p>Маммография</p>
+                                        <p>МР-исследование «Причины головной <br> боли»</p>
+                                        <p>МР-миелография</p>
+                                        <p>МР-энтерография</p>
+                                        <p>МРТ</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="text_small">
+                                        <p>МРТ брюшной полости</p>
+                                        <p>МРТ височно-нижнечелюстного сустава</p>
+                                        <p>МРТ всего тела</p>
+                                        <p>МРТ головного мозга</p>
+                                        <p>МРТ двух коленей</p>
+                                        <p>МРТ двух суставов (кисти, стопы)</p>
+                                        <p>МРТ коленного сустава</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="text_small">
+                                        <p>МРТ плода</p>
+                                        <p>МРТ позвоночника</p>
+                                        <p>МРТ пояснично-крестцового отдела <br> позвоночника</p>
+                                        <p>МРТ предстательной железы</p>
+                                        <p>МРТ прямой кишки</p>
+                                        <p>МРТ шейного отдела позвоночника</p>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="price_list">
+                    <div class="title_block">
+                        <h3>Прейскурант платных услуг</h3>
+                    </div>
+                    <div class="block_download">
+                        <a href="#"><img src="img/down.svg" alt="">Скачать в Excel</a>
+                        <a href="#"><img src="img/down1.svg" alt="">Скачать в PDF</a>
+                    </div>
+                </div>
+                <div class="get_to_appointment">
+                    <div class="title_block">
+                        <h2>Как попасть к нам на прием</h2>
+                    </div>
+                    <div class="block_cards">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="top_img">
+                                        <img src="img/card_im.svg" alt="">
+                                        <h3>Приехать лично</h3>
+                                    </div>
+                                    <p>Консультации проводятся по предварительной записи как бесплатно — <br> за счет средств обязательного медицинского страхования (ОМС), так <br> и на платной основе.</p>
+                                    <a href="#">Список необходимых документов<img src="img/right_card.svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="top_img">
+                                        <img src="img/card_im1.svg" alt="">
+                                        <h3>Дистанционно</h3>
+                                    </div>
+                                    <p>Консультации проводятся по предварительной записи как бесплатно — <br> за счет средств обязательного медицинского страхования (ОМС), так <br> и на платной основе.</p>
+                                    <a href="#">Как получить онлайн-консультацию<img src="img/right_card.svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="top_img">
+                                        <img src="img/card_im2.svg" alt="">
+                                        <h3>Медицинский туризм</h3>
+                                    </div>
+                                    <p>Консультации проводятся по предварительной записи как бесплатно — за <br> счет средств обязательного медицинского страхования (ОМС), так и на <br>  платной основе.</p>
+                                    <a href="#">Список необходимых документов<img src="img/right_card.svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card last_card">
+                                    <div class="top_img">
+                                        <img src="img/card_im3.svg" alt="">
+                                        <h3>Способы предварительной <br> записи:</h3>
+                                    </div>
+                                    <div class="information_block">
+                                        <img src="img/img_inf.svg" alt="">
+                                        <p>Лично в регистратуре консультативной поликлиники;</p>
+                                    </div>
+                                    <div class="information_block">
+                                        <img src="img/img_inf.svg" alt="">
+                                        <p>Оставить заявку на этом сайте;</p>
+                                    </div>
+                                    <div class="information_block">
+                                        <img src="img/img_inf.svg" alt="">
+                                        <div class="text_r">
+                                            <p>По телефону регистратуры <a href="tel:8352706070">(8352) 70-60-70</a></p>
+                                            <span>доб. 1621 - детская.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="questions_answers">
+                    <div class="title_block">
+                        <h2>Вопросы и ответы</h2>
+                        <a href="#">Посмотреть все вопросы</a>
+                    </div>
+                    <div class="block_forms">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="accordion_block">
+                                    <div class="accordion" id="accordionExample1">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Как попасть на оперативное лечение в Центр
+                                            </button>
+                                          </h2>
+                                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample2">
+                                            <div class="accordion-body">
+                                             <p>Для решения вопроса о возможности и необходимости оперативного лечения в Центре рекомендуется консультация врача травматолога-ортопеда (взрослые и дети), врача-нейрохирурга Центра в очной или заочной форме.  </p>
+                                             <a href="#">Записаться на прием</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Где найти прейскурант цен на платные услуги
+                                            </button>
+                                          </h2>
+                                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample3">
+                                            <div class="accordion-body">
+                                                <p>Для решения вопроса о возможности и необходимости оперативного лечения в Центре рекомендуется консультация врача травматолога-ортопеда (взрослые и дети), врача-нейрохирурга Центра в очной или заочной форме.  </p>
+                                                <a href="#">Записаться на прием</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Какие документы нужны для приема
+                                            </button>
+                                          </h2>
+                                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
+                                            <div class="accordion-body">
+                                                <p>Для решения вопроса о возможности и необходимости оперативного лечения в Центре рекомендуется консультация врача травматолога-ортопеда (взрослые и дети), врача-нейрохирурга Центра в очной или заочной форме.  </p>
+                                                <a href="#">Записаться на прием</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                                Как прислать рентгеновские снимки и протоколы МРТ
+                                              </button>
+                                            </h2>
+                                            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample5">
+                                              <div class="accordion-body">
+                                                  <p>Для решения вопроса о возможности и необходимости оперативного лечения в Центре рекомендуется консультация врача травматолога-ортопеда (взрослые и дети), врача-нейрохирурга Центра в очной или заочной форме.  </p>
+                                                  <a href="#">Записаться на прием</a>
+                                              </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                            Как направить обращение
+                                            </button>
+                                        </h2>
+                                        <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample6">
+                                            <div class="accordion-body">
+                                                <p>Для решения вопроса о возможности и необходимости оперативного лечения в Центре рекомендуется консультация врача травматолога-ортопеда (взрослые и дети), врача-нейрохирурга Центра в очной или заочной форме.  </p>
+                                                <a href="#">Записаться на прием</a>
+                                            </div>
+                                        </div>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="form_g">
+                                    <h4>Задайте вопрос онлайн</h4>
+                                    <p>Мы перезвоним, или ответим вам 
+                                        на e-mail в течение дня в рабочее время</p>
+                                    <form>
+                                        <div class="input_box">
+                                            <input type="text" name="iName" oninput="checkName();" placeholder="Ваше имя">
+                                            <span id="iNameOutput"></span>
+                                        </div>
+                                        <div class="input_box">
+                                            <input type="tel" name="iNumber" oninput="checkNumber();" placeholder="Ваш номер телефона">
+                                            <span id="iNumberOutput"></span>
+                                        </div>
+                                        <div class="input_box">
+                                            <input type="email" name="iEmail" placeholder="Ваш e-mail">
+                                            <span id="iEmailOutput"></span>
+                                        </div>
+                                        <div class="input_box">
+                                            <textarea placeholder="Задайте вопрос"></textarea>
+                                        </div>
+                                        <div class="block_ch">
+                                            <div class="checkboxes__item">
+                                                <label class="checkbox style-c">
+                                                  <input type="checkbox" required/>
+                                                  <div class="checkbox__checkmark"></div>
+                                                  <div class="checkbox__body"></div>
+                                                </label>
+                                            </div>
+                                            <p>Я согласен с <a href="#">Политикой конфиденциальности</a></p>
+                                        </div>
+                                        <button>Отправить вопрос</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="form_all_footer">
+            <section class="form_block">
+                <div class="container">
+                    <div class="block_form">
+                        <div class="block_left">
+                            <H3>Остался вопрос – оставь свой номер телефона <br> и мы перезвоним!</H3>
+                            <p>Оставьте заявку и мы подробно ответим на все вопросы!</p>
+                            <form class="form" name="myForm" id="main_form" autocomplete="off">
+                                <div class="input_block">
+                                    <div class="iNameClass">
+                                        <input type="text" name="iName" oninput="checkName();" placeholder="Ваше имя">
+                                        <span id="iNameOutput"></span>
+                                    </div>
+                                    <div class="iNumberClass">
+                                        <input type="tel" name="iNumber" oninput="checkNumber();" placeholder="Ваш номер телефона">
+                                        <span id="iNumberOutput"></span>
+                                    </div>
+                                </div>
+                                <div class="block_ch">
+                                    <div class="checkboxes__item">
+                                        <label class="checkbox style-c">
+                                            <input type="checkbox" required/>
+                                            <div class="checkbox__checkmark"></div>
+                                            <div class="checkbox__body"></div>
+                                        </label>
+                                    </div>
+                                    <p>Я согласен с <a href="#">Политикой конфиденциальности</a></p>
+                                </div>
+                                <button>Отправить вопрос</button>
+                            </form>
+                        </div>
+                        <div class="block_right">
+                            <img src="img/doctors.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+      
+        <footer class="footer_f">
+            <div class="container">
+                <div class="footer_block">
+                    <div class="block_connect">
+                        <a href="#"><img src="img/logo1.svg" alt=""></a>
+                        <a href="tel:+78352706070" class="tell">+7 (8352) 70-60-70</a>
+                        <a href="mailto:fc@orthoscheb.ru" class="mailto">fc@orthoscheb.ru</a>
+                        <p>г. Чебоксары, ул. Федора <br> Гладкова, д. 33</p>
+                        <div class="block_inter">
+                            <a href="#"><img src="img/whatsapp.svg" alt=""></a>
+                            <a href="#"><img src="img/tg.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="menu_group">
+                        <div class="group">
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="#">Версия <br>
+                                        для слабовидящих</a></li>
+                                    <li><a href="#">Правовая информация</a></li>
+                                    <li><a href="#">Политика <br>
+                                        конфиденциальности</a></li>
+                                    <li><a href="#">Пользовательское <br> соглашение</a></li>
+                                    <li><a href="#">Использование cookie</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu second_m">
+                                <ul>
+                                    <li><a href="#">Услуги</a></li>
+                                    <li><a href="#">Пациентам</a></li>
+                                    <li><a href="#">Врачи</a></li>
+                                    <li><a href="#">О центре</a></li>
+                                    <li><a href="#">Вопросы и ответы</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="#">Отель Motus</a></li>
+                                    <li><a href="#">Ортопедический салон</a></li>
+                                    <li><a href="#">Отзывы</a></li>
+                                    <li><a href="#">Пресс-центр</a></li>
+                                    <li><a href="#">Образование</a></li>
+                                    <li><a href="#">Вакансии</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bottom_block">
+                            <img src="img/img_foot.svg" alt="">
+                            <p>НЕЗАВИСИМАЯ ОЦЕНКА КАЧЕСТВА УСЛОВИЙ ОКАЗАНИЯ УСЛУГ МЕДИЦИНСКИМИ <br> ОРГАНИЗАЦИЯМИ</p>
+                            <a href="#" class="small_blue_btn">Оценить</a>
+                        </div>
+                    </div>
+                    <div class="personal_a">
+                        <div class="personal_area">
+                            <a href="#"><img src="img/men.svg" alt=""></a>
+                            <a href="#" class="pers_a">Личный кабинет</a>
+                            <nav class="navbar">
+                                <a href=""></a>
+                                <select class="language-selector" onchange="alert('https://location.loc?lang=' + this.value)">
+                                  <option value="en">ENG</option>
+                                  <option value="ru" selected>RU</option>
+                                  <option value="de">DE</option>
+                                </select>
+                            </nav>
+                        </div>
+                        <a href="#" class="phone btn_red" data-bs-toggle="modal" data-bs-target="#exampleModal1"><img src="img/tel.svg" alt="">Заказать звонок</a>
+                        <a href="#" class="sms btn_blue" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/sms.svg" alt="">Отправить письмо</a>
+                        <div class="block_bottom">
+                            <a href="#" class="btn_red" data-bs-toggle="modal" data-bs-target="#exampleModal2">Записаться на прием</a>
+                        </div>
+                        <div class="bottom_block mob">
+                            <img src="img/img_foot.svg" alt="">
+                            <div class="block_r">
+                                <p>НЕЗАВИСИМАЯ ОЦЕНКА КАЧЕСТВА УСЛОВИЙ ОКАЗАНИЯ УСЛУГ МЕДИЦИНСКИМИ <br> ОРГАНИЗАЦИЯМИ</p>
+                                <a href="#" class="small_blue_btn">Оценить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer> 
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Отправить письмо на e-mail</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="block_unput">
+                    <div class="input_box">
+                        <input type="text" name="iName" oninput="checkName();" placeholder="Ваше имя">
+                        <span id="iNameOutput"></span>
+                    </div>
+                    <div class="input_box">
+                        <input type="email" name="iEmail" oninput="checkEmail();" placeholder="Ваш e-mail">
+                        <span id="iEmailOutput"></span>
+                    </div>
+                </div>
+                <input type="text" placeholder="Тема обращения">
+                <textarea placeholder="Сообщение (не менее 180 символов)"></textarea>
+                <div class="file-upload-container">
+                    <div class="file-upload-area" onclick="document.getElementById('fileInput').click()">
+                        <h3>Нажмите, чтобы добавить файлы к сообщению</h3>
+                        <p>Можно добавить до 5 файлов формата jpg, jpeg, png, pdf, gif и размером до 1Мбайт.</p>
+                        <input type="file" id="fileInput" multiple style="display:none" accept=".jpg,.jpeg,.png,.pdf,.gif" onchange="handleFiles(this.files)">
+                    </div>
+                </div>
+                <div id="fileList"></div>
+                <div class="block_ch">
+                    <div class="checkboxes__item">
+                        <label class="checkbox style-c">
+                          <input type="checkbox" required/>
+                          <div class="checkbox__checkmark"></div>
+                          <div class="checkbox__body"></div>
+                        </label>
+                    </div>
+                    <p>Я согласен с <a href="#">Политикой конфиденциальности</a></p>
+                </div>
+                <button class="button_form">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Отправить письмо на e-mail</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="block_unput">
+                    <div class="input_box">
+                        <input type="text" name="iName" oninput="checkName();" placeholder="Ваше имя">
+                        <span id="iNameOutput"></span>
+                    </div>
+                    <div class="input_box">
+                        <input type="email" name="iEmail" oninput="checkEmail();" placeholder="Ваш e-mail">
+                        <span id="iEmailOutput"></span>
+                    </div>
+                </div>
+                <input type="text" placeholder="Тема обращения">
+                <textarea placeholder="Сообщение (не менее 180 символов)"></textarea>
+                <div class="file-upload-container">
+                    <div class="file-upload-area" onclick="document.getElementById('fileInput').click()">
+                        <h3>Нажмите, чтобы добавить файлы к сообщению</h3>
+                        <p>Можно добавить до 5 файлов формата jpg, jpeg, png, pdf, gif и размером до 1Мбайт.</p>
+                        <input type="file" id="fileInput" multiple style="display:none" accept=".jpg,.jpeg,.png,.pdf,.gif" onchange="handleFiles(this.files)">
+                    </div>
+                </div>
+                <div id="fileList"></div>
+                <div class="block_ch">
+                    <div class="checkboxes__item">
+                        <label class="checkbox style-c">
+                          <input type="checkbox" required/>
+                          <div class="checkbox__checkmark"></div>
+                          <div class="checkbox__body"></div>
+                        </label>
+                    </div>
+                    <p>Я согласен с <a href="#">Политикой конфиденциальности</a></p>
+                </div>
+                <button class="button_form">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Отправить письмо на e-mail</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="block_unput">
+                    <div class="input_box">
+                        <input type="text" name="iName" oninput="checkName();" placeholder="Ваше имя">
+                        <span id="iNameOutput"></span>
+                    </div>
+                    <div class="input_box">
+                        <input type="email" name="iEmail" oninput="checkEmail();" placeholder="Ваш e-mail">
+                        <span id="iEmailOutput"></span>
+                    </div>
+                </div>
+                <input type="text" placeholder="Тема обращения">
+                <textarea placeholder="Сообщение (не менее 180 символов)"></textarea>
+                <div class="file-upload-container">
+                    <div class="file-upload-area" onclick="document.getElementById('fileInput').click()">
+                        <h3>Нажмите, чтобы добавить файлы к сообщению</h3>
+                        <p>Можно добавить до 5 файлов формата jpg, jpeg, png, pdf, gif и размером до 1Мбайт.</p>
+                        <input type="file" id="fileInput" multiple style="display:none" accept=".jpg,.jpeg,.png,.pdf,.gif" onchange="handleFiles(this.files)">
+                    </div>
+                </div>
+                <div id="fileList"></div>
+                <div class="block_ch">
+                    <div class="checkboxes__item">
+                        <label class="checkbox style-c">
+                          <input type="checkbox" required/>
+                          <div class="checkbox__checkmark"></div>
+                          <div class="checkbox__body"></div>
+                        </label>
+                    </div>
+                    <p>Я согласен с <a href="#">Политикой конфиденциальности</a></p>
+                </div>
+                <button class="button_form">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="ulimichi">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+  
+</body>
+</html>
